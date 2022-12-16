@@ -21,6 +21,7 @@ root.render(
 
   <BrowserRouter>
   <Routes>
+    {/* General layout file : Layout */}
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="blogs" element={<Blogs />} />
