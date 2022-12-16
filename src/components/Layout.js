@@ -6,8 +6,8 @@ const Layout = () => {
     <div className="center">
       <nav>
         <ul className="listHorizontal">
-          <li  style={{ color: 'red' }}>
-            <Link to="/"> Home | </Link>
+          <li  >
+            <Link to="/"> Home |  </Link>
           </li>
           <li>
             <Link to="/blogs"> Blogs  |</Link>
