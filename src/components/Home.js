@@ -17,7 +17,7 @@ export default function Home() {
     <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={2}>
         {/* Grid1 */}
-        <Grid item xs={8}>
+        <Grid item xs={12} sm={8} md={6} >
           <Item>
           <h1>hellow</h1>
           <h1>hellow</h1>
@@ -26,7 +26,7 @@ export default function Home() {
           </Item>
           
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12}  sm={8} md={6}>
         <Item>
           <h1>hellow</h1>
           <h1>hellow</h1>
