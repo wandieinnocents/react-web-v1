@@ -29,17 +29,17 @@ export default function Layout() {
       >
         
         {/* logo */}
-        <Grid item  xs={3} sm={3} md={3} >
+        <Grid item  xs={12} sm={3} md={3} >
           <Item style={{ backgroundColor:'green', padding:6}}>
         
-          <h1>logo</h1>
+          <p>logo</p>
          
           </Item>
           
         </Grid>
        
        {/* navigation */}
-        <Grid item  xs={5} sm={5} md={5} >
+        <Grid item  xs={12} sm={6} md={6} >
           <Item style={{ backgroundColor:'yellow', padding:6}}>
         
                 <div className="center">
@@ -66,10 +66,10 @@ export default function Layout() {
 
         {/* socias */}
         {/* logo */}
-        <Grid item  xs={4} sm={4} md={4} >
-          <Item style={{ backgroundColor:'brown', padding:6}}>
+        <Grid item  xs={12} sm={3} md={3} >
+          <Item style={{ backgroundColor:'gray', padding:6}}>
         
-          <h1>socials</h1>
+          <p>socials</p>
          
           </Item>
           
@@ -83,6 +83,8 @@ export default function Layout() {
       <Outlet />
 
   </Box>
+
+
     
   );
 }
