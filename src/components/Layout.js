@@ -29,13 +29,13 @@ export default function Layout() {
       >
         
         {/* logo */}
-        <Grid item  xs={12} sm={3} md={3} >
-          <Item style={{ backgroundColor:'', padding:6}}>
+        <Grid item  xs={12} sm={4} md={4} >
+          <Item style={{ backgroundColor:'', padding:6 , textAlign: 'center'}}>
           <img
               src={require('../assets/log.jpeg')}
               alt="Trees"
-              // width="100%"
-              // height="60"
+              width="70%"
+              height="60"
 
             />
          
@@ -44,12 +44,21 @@ export default function Layout() {
         </Grid>
        
        {/* navigation */}
-        <Grid item  xs={12} sm={6} md={6} >
-          <Item style={{ backgroundColor:'yellow', padding:6}}>
+        <Grid item  xs={12} sm={8} md={8} >
+          <Item style={{ backgroundColor:''}}>
         
-                <div className="center">
-                    <nav>
+                <div >
+                    <nav >
                       <ul className="listHorizontal">
+                        <li  >
+                          <Link to="/"> Home |  </Link>
+                        </li>
+                        <li>
+                          <Link to="/blogs"> Blogs  |</Link>
+                        </li>
+                        <li>
+                          <Link to="/contact"> Contact </Link>
+                        </li>
                         <li  >
                           <Link to="/"> Home |  </Link>
                         </li>
@@ -71,14 +80,14 @@ export default function Layout() {
 
         {/* socias */}
         {/* logo */}
-        <Grid item  xs={12} sm={3} md={3} >
+        {/* <Grid item  xs={12} sm={3} md={3} >
           <Item style={{ backgroundColor:'gray', padding:6}}>
         
           <p>socials</p>
          
           </Item>
           
-        </Grid>
+        </Grid> */}
 
 
 
