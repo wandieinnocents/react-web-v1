@@ -30,9 +30,14 @@ export default function Layout() {
         
         {/* logo */}
         <Grid item  xs={12} sm={3} md={3} >
-          <Item style={{ backgroundColor:'green', padding:6}}>
-        
-          <p>logo</p>
+          <Item style={{ backgroundColor:'', padding:6}}>
+          <img
+              src={require('../assets/log.jpeg')}
+              alt="Trees"
+              // width="100%"
+              // height="60"
+
+            />
          
           </Item>
           
