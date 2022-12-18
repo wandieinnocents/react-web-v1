@@ -23,6 +23,28 @@ export default function Home() {
       spacing={2}
       >
         
+       
+        <Grid item  xs={12} sm={12} md={12} >
+          <Item style={{ backgroundColor:'brown', padding:6,marginBottom:10}}>
+        
+          <h1>hellohelhellodie</h1>
+          <h1>hellow</h1>
+          <h1>hellow</h1>
+          <h1>hellow</h1>
+          </Item>
+          
+        </Grid>
+
+        
+      </Grid>
+
+      {/* Grid Row */}
+      <Grid 
+      container 
+      direction="row"
+      spacing={2}
+      >
+        
         {/* Column1 */}
         <Grid item  xs={12} sm={4} md={4} >
           <Item style={{ backgroundColor:'green', padding:6}}>
@@ -37,7 +59,7 @@ export default function Home() {
 
         {/* Column2 */}
         <Grid item xs={12}  sm={4} md={4}>
-        <Item>
+        <Item style={{ backgroundColor:'brown', padding:6,marginBottom:10}}>
           <h1>hellow</h1>
           <h1>hellow</h1>
           <h1>hellow</h1>
@@ -47,7 +69,7 @@ export default function Home() {
 
          {/* Column3 */}
          <Grid item xs={12}  sm={4} md={4}>
-        <Item>
+        <Item style={{ backgroundColor:'brown', padding:6,marginBottom:10}}>
           <h1>hellow</h1>
           <h1>hellow</h1>
           <h1>hellow</h1>
