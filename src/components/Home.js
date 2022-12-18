@@ -49,10 +49,14 @@ export default function Home() {
         container
         direction="row"
         spacing={2}
+
       >
+        {/* left space */}
+        <Grid item xs={12} sm={1.5} md={1.5} >
+        </Grid>
 
         {/* Column1 */}
-        <Grid item xs={12} sm={4} md={4} >
+        <Grid item xs={12} sm={3} md={3} >
           <Item style={{ backgroundColor: 'green', padding: 6 }}>
 
             {/* icon */}
@@ -61,6 +65,7 @@ export default function Home() {
               alt="Trees"
               width="20%"
               height="20%"
+              style={{ marginTop: 30 }}
 
             />
 
@@ -69,10 +74,7 @@ export default function Home() {
               Truncation should be conditionally applicable on this long line of text
               as this is a much longer line than what the container can support.
               Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can support.
-              as this is a much longer line than what the container can support.
-              Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can support.
+             
             </Typography>
 
           </Item>
@@ -80,7 +82,7 @@ export default function Home() {
         </Grid>
 
         {/* Column2 */}
-        <Grid item xs={12} sm={4} md={4}>
+        <Grid item xs={12} sm={3} md={3}>
           <Item style={{ backgroundColor: 'brown', padding: 6, marginBottom: 10 }}>
             {/* icon */}
             <img
@@ -88,17 +90,14 @@ export default function Home() {
               alt="Trees"
               width="20%"
               height="20%"
+              style={{ marginTop: 30 }}
 
             />
             <h1>VISION</h1>
             <Typography >
-              Truncation should be conditionally applicable on this long line of text
+            Truncation should be conditionally applicable on this long line of text
               as this is a much longer line than what the container can support.
               Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can support.
-              as this is a much longer line than what the container can support.
-              Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can support.
             </Typography>
 
 
@@ -106,7 +105,7 @@ export default function Home() {
         </Grid>
 
         {/* Column3 */}
-        <Grid item xs={12} sm={4} md={4}>
+        <Grid item xs={12} sm={3} md={3}>
           <Item style={{ backgroundColor: 'brown', padding: 6, marginBottom: 10 }}>
 
             {/* icon */}
@@ -115,20 +114,21 @@ export default function Home() {
               alt="Trees"
               width="20%"
               height="20%"
+              style={{ marginTop: 30 }}
 
             />
             <h1>CORE VALUES</h1>
             <Typography >
-              Truncation should be conditionally applicable on this long line of text
+            Truncation should be conditionally applicable on this long line of text
               as this is a much longer line than what the container can support.
               Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can support.
-              as this is a much longer line than what the container can support.
-              Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can support.
             </Typography>
 
           </Item>
+        </Grid>
+
+         {/* right space */}
+         <Grid item xs={12} sm={1.5} md={1.5} >
         </Grid>
 
       </Grid>
