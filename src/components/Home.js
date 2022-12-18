@@ -15,18 +15,38 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function Home() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <Grid container spacing={2}>
-        {/* Grid1 */}
-        <Grid item xs={12} sm={8} md={6} >
-          <Item>
-          <h1>hellow</h1>
+
+      {/* Grid */}
+      <Grid 
+      container 
+      direction="row"
+      spacing={2}
+      >
+        
+        {/* Column1 */}
+        <Grid item  xs={12} sm={4} md={4} >
+          <Item style={{ backgroundColor:'green', padding:6}}>
+        
+          <h1>hellohelhellodie</h1>
           <h1>hellow</h1>
           <h1>hellow</h1>
           <h1>hellow</h1>
           </Item>
           
         </Grid>
-        <Grid item xs={12}  sm={8} md={6}>
+
+        {/* Column2 */}
+        <Grid item xs={12}  sm={4} md={4}>
+        <Item>
+          <h1>hellow</h1>
+          <h1>hellow</h1>
+          <h1>hellow</h1>
+          <h1>hellow</h1>
+          </Item>
+        </Grid>
+
+         {/* Column3 */}
+         <Grid item xs={12}  sm={4} md={4}>
         <Item>
           <h1>hellow</h1>
           <h1>hellow</h1>
@@ -36,6 +56,8 @@ export default function Home() {
         </Grid>
        
       </Grid>
+
+      
     </Box>
   );
 }
