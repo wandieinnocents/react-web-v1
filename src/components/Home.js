@@ -4,6 +4,8 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
+import { render } from "react-dom";
+import { Parallax, Background } from "react-parallax";
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -13,6 +15,29 @@ const Item = styled(Paper)(({ theme }) => ({
   textAlign: 'center',
   color: theme.palette.text.secondary,
 }));
+
+// parallax image
+const image1 =
+  "https://images.unsplash.com/photo-1498092651296-641e88c3b057?auto=format&fit=crop&w=1778&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D";
+const image2 =
+  "https://img00.deviantart.net/2bd0/i/2009/276/c/9/magic_forrest_wallpaper_by_goergen.jpg";
+const image3 =
+  "https://brightcove04pmdo-a.akamaihd.net/5104226627001/5104226627001_5297440765001_5280261645001-vs.jpg?pubId=5104226627001&videoId=5280261645001";
+const image4 =
+  "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/empire-state-building-black-and-white-square-format-john-farnan.jpg";
+
+  const parallaxText = {
+    // background: "white",
+    padding: 10,
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    textAlign:"center",
+    width:"100%",
+    transform: "translate(-50%,-50%)"
+  };
+
+  // end of parallax
 
 export default function Home() {
   return (
@@ -246,19 +271,19 @@ export default function Home() {
             <h1 style={{ backgroundColor: '', textAlign: 'left' }}>Know</h1>
             <h1 style={{ backgroundColor: '', textAlign: 'left' }}>OUR STORY ?</h1>
             <Typography style={{ backgroundColor: '', textAlign: 'left' }}>
-              Since 1991, Multiple Industries Limited has been leading the way in the 
+              Since 1991, Multiple Industries Limited has been leading the way in the
               manufacturing and trading of Domestic and Industrial Building Materials in Uganda.
               <br></br><br></br>
-             Right from reinforcing bars to concrete products, from indoor plumbing to outdoor plumbing, from rainwater gutters to strong dependable plastic pipes, Multiple Industries is in the business of producing a multiplicity 
-            of building materials that add value to the lives of our customers. 
+              Right from reinforcing bars to concrete products, from indoor plumbing to outdoor plumbing, from rainwater gutters to strong dependable plastic pipes, Multiple Industries is in the business of producing a multiplicity
+              of building materials that add value to the lives of our customers.
 
-            <br></br><br></br>
-            Multiple Industries is committed to ensure that quality and 
-            services are maintained in all aspects of its operations.
+              <br></br><br></br>
+              Multiple Industries is committed to ensure that quality and
+              services are maintained in all aspects of its operations.
 
             </Typography>
 
-      
+
 
           </Item>
 
@@ -273,7 +298,7 @@ export default function Home() {
             alt="Trees"
             width="90%"
             height="90%"
-            style={{ marginTop: 30,alignContent:'right',alignItems:'right',float:'right' }}
+            style={{ marginTop: 30, alignContent: 'right', alignItems: 'right', float: 'right' }}
 
           />
 
@@ -288,6 +313,27 @@ export default function Home() {
 
       </Grid>
 
+
+      {/* parallax section */}
+      <Grid
+        container
+        direction="row"
+        spacing={2}
+      >
+
+
+        {/* banner section */}
+        <Grid item xs={12} sm={12} md={12} style={{ backgroundColor: '', marginBottom: 10 }} >
+          <Parallax bgImage={image1} >
+            <div style={{ height: 500 }}>
+              <div style={parallaxText} >
+                <h1>LOOKING FOR BETTER SOLUTIONS TO PLASTICS ?</h1>
+                </div>
+            </div>
+          </Parallax>
+        </Grid>
+
+      </Grid>
 
     </Box>
   );
