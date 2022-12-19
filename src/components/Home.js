@@ -6,6 +6,8 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import { render } from "react-dom";
 import { Parallax, Background } from "react-parallax";
+import Button from '@mui/material/Button';
+import Stack from '@mui/material/Stack';
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -26,18 +28,18 @@ const image3 =
 const image4 =
   "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/empire-state-building-black-and-white-square-format-john-farnan.jpg";
 
-  const parallaxText = {
-    // background: "white",
-    padding: 10,
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    textAlign:"center",
-    width:"100%",
-    transform: "translate(-50%,-50%)"
-  };
+const parallaxText = {
+  // background: "white",
+  padding: 10,
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  textAlign: "center",
+  width: "100%",
+  transform: "translate(-50%,-50%)"
+};
 
-  // end of parallax
+// end of parallax
 
 export default function Home() {
   return (
@@ -327,8 +329,21 @@ export default function Home() {
           <Parallax bgImage={image1} >
             <div style={{ height: 500 }}>
               <div style={parallaxText} >
-                <h1>LOOKING FOR BETTER SOLUTIONS TO PLASTICS ?</h1>
-                </div>
+                <h1 style={{ color:'white' }}>LOOKING FOR BETTER SOLUTIONS TO PLASTICS ?</h1>
+                <p style={{ color:'white' }}>We have a team ofruWe have a team of resilient designers to take u thruWe have
+                  a team of resilient designers to take u thru</p>
+                <p style={{ color:'white' }}>We have a team ofruWe have a team of resilient designers to take u thruWe have </p>
+               
+                {/* button */}
+               
+                  <Button variant="contained" color="primary"  size="large">JOIN TODAY</Button>
+                  <Button variant="contained" color="success"  size="large" style={{ marginLeft:20 }}>TALK TO US</Button>
+                
+              </div>
+
+
+
+
             </div>
           </Parallax>
         </Grid>
