@@ -8,6 +8,16 @@ import { render } from "react-dom";
 import { Parallax, Background } from "react-parallax";
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
+import BackgroundSlideshow from 'react-background-slideshow'
+
+import image5 from '../assets/nature.jpeg'
+import x from '../assets/x.jpeg'
+import y from '../assets/y.jpeg'
+import z from '../assets/z.jpeg'
+
+
+
+
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
@@ -51,6 +61,10 @@ export default function Home() {
             alt="Trees"
             width="100%"
           />
+
+      {/* <div>
+        <BackgroundSlideshow  images={[ x,y,z ]} />
+      </div> */}
         </Grid>
       </Grid>
       {/* Grid Row */}
