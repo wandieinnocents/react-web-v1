@@ -329,10 +329,10 @@ export default function Home() {
           <Parallax bgImage={image1} >
             <div style={{ height: 500 }}>
               <div style={parallaxText} >
-                <h1 style={{ color:'white' }}>LOOKING FOR BETTER SOLUTIONS TO PLASTICS ?</h1>
-                <p style={{ color:'white' }}>We have a team ofruWe have a team of resilient designers to take u thruWe have
+                <h1 style={{ color:'white'}}>LOOKING FOR BETTER SOLUTIONS TO PLASTICS ?</h1>
+                <p style={{ color:'white',marginTop: -10 }}>We have a team ofruWe have a team of resilient designers to take u thruWe have
                   a team of resilient designers to take u thru</p>
-                <p style={{ color:'white' }}>We have a team ofruWe have a team of resilient designers to take u thruWe have </p>
+                <p style={{ color:'white', marginTop: -10}}>We have a team ofruWe have a team of resilient designers to take u thruWe have </p>
                
                 {/* button */}
                
@@ -340,10 +340,6 @@ export default function Home() {
                   <Button variant="contained" color="success"  size="large" style={{ marginLeft:20 }}>TALK TO US</Button>
                 
               </div>
-
-
-
-
             </div>
           </Parallax>
         </Grid>
