@@ -277,9 +277,6 @@ export default function Home() {
 
           />
 
-
-
-
         </Grid>
 
         {/* Column3 */}
