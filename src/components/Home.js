@@ -27,8 +27,8 @@ export default function Home() {
 
 
         {/* banner section */}
-        <Grid item xs={12} sm={12} md={12} >
-          <Item style={{ backgroundColor: '', marginBottom: 10 }}>
+        <Grid item xs={12} sm={12} md={12} style={{ backgroundColor: '', marginBottom: 10 }} >
+         
 
             <img
               src={require('../assets/nature.jpeg')}
@@ -37,7 +37,7 @@ export default function Home() {
 
             />
 
-          </Item>
+         
 
         </Grid>
 
@@ -57,7 +57,7 @@ export default function Home() {
 
         {/* Column1 */}
         <Grid item xs={12} sm={3} md={3} >
-          <Item style={{ backgroundColor: 'green', padding: 6 }}>
+          <Item style={{ backgroundColor: '', padding: 6 }}>
 
             {/* icon */}
             <img
@@ -83,7 +83,7 @@ export default function Home() {
 
         {/* Column2 */}
         <Grid item xs={12} sm={3} md={3}>
-          <Item style={{ backgroundColor: 'brown', padding: 6, marginBottom: 10 }}>
+          <Item style={{ backgroundColor: '', padding: 6, marginBottom: 10 }}>
             {/* icon */}
             <img
               src={require('../assets/vision.png')}
@@ -106,7 +106,7 @@ export default function Home() {
 
         {/* Column3 */}
         <Grid item xs={12} sm={3} md={3}>
-          <Item style={{ backgroundColor: 'brown', padding: 6, marginBottom: 10 }}>
+          <Item style={{ backgroundColor: '', padding: 6, marginBottom: 10 }}>
 
             {/* icon */}
             <img
