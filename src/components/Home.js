@@ -80,7 +80,7 @@ export default function Home() {
         container
         direction="row"
         spacing={2}
-        style={{marginTop:-100,zIndex:99, position:'absolute'}}
+        style={{marginTop:-80,zIndex:3, position:'absolute'}}
       >
         {/* left space */}
         <Grid item xs={12} sm={1.5} md={1.5} >
@@ -151,6 +151,9 @@ export default function Home() {
         container
         direction="row"
         spacing={2}
+        // style={{ marginTop:250 }}
+
+        style={{marginTop:250,zIndex:1, position:'relative'}}
       >
         {/* left space */}
         <Grid item xs={12} sm={1.5} md={1.5} >
