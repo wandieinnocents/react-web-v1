@@ -25,6 +25,7 @@ const Item = styled(Paper)(({ theme }) => ({
   textAlign: 'center',
   color: theme.palette.text.secondary,
 }));
+
 // parallax image
 const image1 =
   "https://images.unsplash.com/photo-1498092651296-641e88c3b057?auto=format&fit=crop&w=1778&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D";
@@ -49,6 +50,7 @@ export default function Home() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       {/* Grid */}
+      {/* parallax section */}
       <Grid
         container
         direction="row"
@@ -56,15 +58,20 @@ export default function Home() {
       >
         {/* banner section */}
         <Grid item xs={12} sm={12} md={12} style={{ backgroundColor: '', marginBottom: 10 }} >
-          <img
-            src={require('../assets/nature.jpeg')}
-            alt="Trees"
-            width="100%"
-          />
-
-      {/* <div>
-        <BackgroundSlideshow  images={[ x,y,z ]} />
-      </div> */}
+          <Parallax bgImage={image4} blur={{ min: -1, max: 6 }} strength={-100}>
+            <div style={{ height: 500 }}>
+              <div style={parallaxText} >
+                <h1 style={{ color: 'black',fontSize:80 }}>MULTIPLE INDUSTRIES</h1>
+                <p style={{ color: 'black',fontSize:30, marginTop: -50 }}>
+                  We have a team ofruWe have a team of resilient designers to take
+                  <br></br> u thruWe havea team of resilient designers to take u thru
+                  <br></br>team of resilient designers to take u thru</p>
+                {/* button */}
+                <Button variant="contained" color="primary" size="large">JOIN TODAY</Button>
+                <Button variant="contained" color="success" size="large" style={{ marginLeft: 20 }}>TALK TO US</Button>
+              </div>
+            </div>
+          </Parallax>
         </Grid>
       </Grid>
       {/* Grid Row */}
