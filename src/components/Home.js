@@ -14,6 +14,7 @@ import image5 from '../assets/nature.jpeg'
 import x from '../assets/x.jpeg'
 import y from '../assets/y.jpeg'
 import z from '../assets/z.jpeg'
+import { ImportantDevices } from '@mui/icons-material';
 
 
 
@@ -79,6 +80,7 @@ export default function Home() {
         container
         direction="row"
         spacing={2}
+        style={{marginTop:-100,zIndex:99, position:'absolute'}}
       >
         {/* left space */}
         <Grid item xs={12} sm={1.5} md={1.5} >
