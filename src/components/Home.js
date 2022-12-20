@@ -258,7 +258,7 @@ export default function Home() {
       >
         {/* banner section */}
         <Grid item xs={12} sm={12} md={12} style={{ backgroundColor: '', marginBottom: 10 }} >
-          <Parallax bgImage={image3} >
+          <Parallax bgImage={image3} blur={{ min: -1, max: 8 }}>
             <div style={{ height: 500 }}>
               <div style={parallaxText} >
                 <h1 style={{ color: 'black' }}>LOOKING FOR BETTER SOLUTIONS TO PLASTICS ?</h1>
