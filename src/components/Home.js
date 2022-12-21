@@ -20,6 +20,8 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
+import Divider from '@mui/material/Divider';
+
 
 
 
@@ -431,7 +433,23 @@ export default function Home() {
 
 
 
+      <Grid item xs={12} sm={12} md={12} style={{ backgroundColor: '', textAlign: 'center', padding: 6, marginBottom: 20 }}>
 
+        {/* icon */}
+
+        <h1>Check </h1>
+        <h1>UPCOMING EVENTS ?</h1>
+        <Typography >
+          Truncation should be conditionally applicable on this long line of text
+          as this is a much longer line than what the container can support.
+          <br></br>
+          Truncation should be conditionals long line of text
+          as this is a much longer line than what the container can support.
+          <br></br>
+          Truncation should be conditionally applicable on this long line of text
+        </Typography>
+
+      </Grid>
 
       {/* Grid Row */}
       <Grid
@@ -457,68 +475,97 @@ export default function Home() {
             <CardContent>
               {/* event division here  */}
               <Stack direction="row" spacing={2}>
-              <Item>DATE : 21-2-2023</Item>
-              <Item>KAMPLA - UGANDA</Item>
-              
-            </Stack>
-                 {/* event division here  */}
-              <Typography gutterBottom variant="h5" component="div">
-                This is an upcoming event
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
+                <Item>ICON : 21-2-2023</Item>
+                <Item>ICON - UGANDA</Item>
+
+              </Stack>
+              {/* event division here  */}
+              <h2 style={{ textAlign: 'center' }}>
+                CHRISMAS HOLIDAYS ..
+              </h2>
+              <p style={{ textAlign: 'center' }}>
                 Lizards are a widespread group of squamate reptiles, with over 6,000
-                species, ranging across all continents except Antarctica
-              </Typography>
+                species, ranging across all continents except Antarctica  Antarctica dkdk
+              </p>
             </CardContent>
             <CardActions >
-            {/* <Button variant="contained" color="primary" size="medium">JOIN TODAY</Button> */}
-             <Button variant="contained" color="success" size="medium" style={{ marginLeft: 20 }}>TALK TO US</Button>
+              <Button variant="outlined" color="success" size="medium" style={{ marginLeft: 100 }}>READ MORE</Button>
+
             </CardActions>
           </Card>
         </Grid>
         {/* Column2 */}
         <Grid item xs={12} sm={3} md={3}>
-          <Item style={{ backgroundColor: '', padding: 6, marginBottom: 10 }}>
-            {/* icon */}
-            <img
-              src={require('../assets/vision.png')}
-              alt="Trees"
-              width="20%"
-              height="20%"
-              style={{ marginTop: 30 }}
+        <Card sx={{ maxWidth: 345 }}>
+            <CardMedia
+              component="img"
+              alt="green iguana"
+              height="140"
+              image="https://img00.deviantart.net/2bd0/i/2009/276/c/9/magic_forrest_wallpaper_by_goergen.jpg"
             />
-            <h1>VISION</h1>
-            <Typography >
-              Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can support.
-              Truncation should be conditionally applicable on this long line of text
-            </Typography>
-          </Item>
+            {/*  */}
+            <CardContent>
+              {/* event division here  */}
+              <Stack direction="row" spacing={2}>
+                <Item>ICON : 21-2-2023</Item>
+                <Item>ICON - UGANDA</Item>
+
+              </Stack>
+              {/* event division here  */}
+              <h2 style={{ textAlign: 'center' }}>
+                CHRISMAS HOLIDAYS ..
+              </h2>
+              <p style={{ textAlign: 'center' }}>
+                Lizards are a widespread group of squamate reptiles, with over 6,000
+                species, ranging across all continents except Antarctica  Antarctica dkdk
+              </p>
+            </CardContent>
+            <CardActions >
+              <Button variant="outlined" color="success" size="medium" style={{ marginLeft: 100 }}>READ MORE</Button>
+
+            </CardActions>
+          </Card>
         </Grid>
         {/* Column3 */}
         <Grid item xs={12} sm={3} md={3}>
-          <Item style={{ backgroundColor: '', padding: 6, marginBottom: 10 }}>
-            {/* icon */}
-            <img
-              src={require('../assets/values.png')}
-              alt="Trees"
-              width="20%"
-              height="20%"
-              style={{ marginTop: 30 }}
+        <Card sx={{ maxWidth: 345 }}>
+            <CardMedia
+              component="img"
+              alt="green iguana"
+              height="140"
+              image="https://img00.deviantart.net/2bd0/i/2009/276/c/9/magic_forrest_wallpaper_by_goergen.jpg"
             />
-            <h1>CORE VALUES</h1>
-            <Typography >
-              Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can support.
-              Truncation should be conditionally applicable on this long line of text
-            </Typography>
-          </Item>
+            {/*  */}
+            <CardContent>
+              {/* event division here  */}
+              <Stack direction="row" spacing={2}>
+                <Item>ICON : 21-2-2023</Item>
+                <Item>ICON - UGANDA</Item>
+
+              </Stack>
+              {/* event division here  */}
+              <h2 style={{ textAlign: 'center' }}>
+                CHRISMAS HOLIDAYS ..
+              </h2>
+              <p style={{ textAlign: 'center' }}>
+                Lizards are a widespread group of squamate reptiles, with over 6,000
+                species, ranging across all continents except Antarctica  Antarctica dkdk
+              </p>
+            </CardContent>
+            <CardActions >
+              <Button variant="outlined" color="success" size="medium" style={{ marginLeft: 100 }}>READ MORE</Button>
+
+            </CardActions>
+          </Card>
         </Grid>
         {/* right space */}
         <Grid item xs={12} sm={1.5} md={1.5} >
         </Grid>
       </Grid>
       {/* Grid Row */}
+
+
+
 
 
 
