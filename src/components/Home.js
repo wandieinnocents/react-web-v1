@@ -75,13 +75,106 @@ export default function Home() {
           </Parallax>
         </Grid>
       </Grid>
+
+
+      {/* Featured icons */}
+       {/* Grid Row */}
+       <Grid
+        container
+        direction="row"
+        spacing={2}
+        // style={{top:530,zIndex:1, position:'absolute'}}
+
+      >
+        {/* left space */}
+        <Grid item xs={12} sm={2} md={2} >
+        </Grid>
+        {/* Column1 */}
+        <Grid item xs={12} sm={2} md={2}>
+          <Item style={{ backgroundColor: '', padding: 6, marginBottom: 10 }}>
+            {/* icon */}
+            <img
+              src={require('../assets/values.png')}
+              alt="Trees"
+              width="20%"
+              height="20%"
+              style={{ marginTop: 30 }}
+            />
+            <p>Instant </p>
+            
+          </Item>
+        </Grid>
+
+
+        {/* Column2 */}
+        <Grid item xs={12} sm={2} md={2}>
+          <Item style={{ backgroundColor: '', padding: 6, marginBottom: 10 }}>
+            {/* icon */}
+            <img
+              src={require('../assets/values.png')}
+              alt="Trees"
+              width="20%"
+              height="20%"
+              style={{ marginTop: 30 }}
+            />
+           <p>Instant </p>
+            
+          </Item>
+        </Grid>
+
+        
+        {/* Column3 */}
+        <Grid item xs={12} sm={2} md={2}>
+          <Item style={{ backgroundColor: '', padding: 6, marginBottom: 10 }}>
+            {/* icon */}
+            <img
+              src={require('../assets/values.png')}
+              alt="Trees"
+              width="20%"
+              height="20%"
+              style={{ marginTop: 30 }}
+            />
+            <p>Instant </p>
+            
+          </Item>
+        </Grid>
+
+        {/* Column */}
+
+        <Grid item xs={12} sm={2} md={2}>
+          <Item style={{ backgroundColor: '', padding: 6, marginBottom: 10 }}>
+            {/* icon */}
+            <img
+              src={require('../assets/values.png')}
+              alt="Trees"
+              width="20%"
+              height="20%"
+              style={{ marginTop: 30 }}
+            />
+            <p>Instant </p>
+            
+          </Item>
+        </Grid>
+        {/* right space */}
+        <Grid item xs={12} sm={2} md={2} >
+        </Grid>
+      </Grid>
+      {/* Grid Row */}
+
+      {/* End of featured icons */}
+
+
+
+
+
+
+
       {/* Grid Row */}
       <Grid
         container
         direction="row"
         spacing={2}
-        style={{top:530,zIndex:1, position:'absolute'}}
-        // style={{marginTop:250,zIndex:1, position:'absolute'}}
+        // style={{top:530,zIndex:1, position:'absolute'}}
 
       >
         {/* left space */}
@@ -155,7 +248,7 @@ export default function Home() {
         spacing={2}
         // style={{ marginTop:250 }}
 
-        style={{marginTop:250, position:'relative'}}
+        // style={{marginTop:250, position:'relative'}}
       >
         {/* left space */}
         <Grid item xs={12} sm={1.5} md={1.5} >
