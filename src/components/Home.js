@@ -15,7 +15,8 @@ import x from '../assets/x.jpeg'
 import y from '../assets/y.jpeg'
 import z from '../assets/z.jpeg'
 import { ImportantDevices } from '@mui/icons-material';
-
+import Fab from '@mui/material/Fab';
+import AddIcon from '@mui/icons-material/Add';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -474,9 +475,13 @@ export default function Home() {
             {/*  */}
             <CardContent>
               {/* event division here  */}
-              <Stack direction="row" spacing={2}>
-                <Item>ICON : 21-2-2023</Item>
-                <Item>ICON - UGANDA</Item>
+              <Stack direction="row" spacing={3}>
+                <p style={{ width:200 }}>DATE : 21-2-2023 |  ADMIN </p>
+                
+                {/* <Item>KAMPALA - UGANDA</Item> */}
+                <Fab color="primary" aria-label="add">
+                <AddIcon />
+              </Fab>
 
               </Stack>
               {/* event division here  */}
@@ -489,7 +494,8 @@ export default function Home() {
               </p>
             </CardContent>
             <CardActions >
-              <Button variant="outlined" color="success" size="medium" style={{ marginLeft: 100 }}>READ MORE</Button>
+              {/* <Button variant="outlined" color="success" size="medium" style={{ marginLeft: 100 }}>READ MORE</Button> */}
+              
 
             </CardActions>
           </Card>
@@ -506,9 +512,13 @@ export default function Home() {
             {/*  */}
             <CardContent>
               {/* event division here  */}
-              <Stack direction="row" spacing={2}>
-                <Item>ICON : 21-2-2023</Item>
-                <Item>ICON - UGANDA</Item>
+              <Stack direction="row" spacing={3}>
+                <p style={{ width:200 }}>DATE : 21-2-2023 |  ADMIN </p>
+                
+                {/* <Item>KAMPALA - UGANDA</Item> */}
+                <Fab color="primary" aria-label="add">
+                <AddIcon />
+              </Fab>
 
               </Stack>
               {/* event division here  */}
@@ -521,7 +531,8 @@ export default function Home() {
               </p>
             </CardContent>
             <CardActions >
-              <Button variant="outlined" color="success" size="medium" style={{ marginLeft: 100 }}>READ MORE</Button>
+              {/* <Button variant="outlined" color="success" size="medium" style={{ marginLeft: 100 }}>READ MORE</Button> */}
+              
 
             </CardActions>
           </Card>
@@ -538,9 +549,13 @@ export default function Home() {
             {/*  */}
             <CardContent>
               {/* event division here  */}
-              <Stack direction="row" spacing={2}>
-                <Item>ICON : 21-2-2023</Item>
-                <Item>ICON - UGANDA</Item>
+              <Stack direction="row" spacing={3}>
+                <p style={{ width:200 }}>DATE : 21-2-2023 |  ADMIN </p>
+                
+                {/* <Item>KAMPALA - UGANDA</Item> */}
+                <Fab color="primary" aria-label="add">
+                <AddIcon />
+              </Fab>
 
               </Stack>
               {/* event division here  */}
@@ -553,7 +568,8 @@ export default function Home() {
               </p>
             </CardContent>
             <CardActions >
-              <Button variant="outlined" color="success" size="medium" style={{ marginLeft: 100 }}>READ MORE</Button>
+              {/* <Button variant="outlined" color="success" size="medium" style={{ marginLeft: 100 }}>READ MORE</Button> */}
+              
 
             </CardActions>
           </Card>
