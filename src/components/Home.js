@@ -453,18 +453,26 @@ export default function Home() {
               height="140"
               image="https://img00.deviantart.net/2bd0/i/2009/276/c/9/magic_forrest_wallpaper_by_goergen.jpg"
             />
+            {/*  */}
             <CardContent>
+              {/* event division here  */}
+              <Stack direction="row" spacing={2}>
+              <Item>DATE : 21-2-2023</Item>
+              <Item>KAMPLA - UGANDA</Item>
+              
+            </Stack>
+                 {/* event division here  */}
               <Typography gutterBottom variant="h5" component="div">
-                Lizard
+                This is an upcoming event
               </Typography>
               <Typography variant="body2" color="text.secondary">
                 Lizards are a widespread group of squamate reptiles, with over 6,000
                 species, ranging across all continents except Antarctica
               </Typography>
             </CardContent>
-            <CardActions>
-              <Button size="small">Share</Button>
-              <Button size="small">Learn More</Button>
+            <CardActions >
+            {/* <Button variant="contained" color="primary" size="medium">JOIN TODAY</Button> */}
+             <Button variant="contained" color="success" size="medium" style={{ marginLeft: 20 }}>TALK TO US</Button>
             </CardActions>
           </Card>
         </Grid>
