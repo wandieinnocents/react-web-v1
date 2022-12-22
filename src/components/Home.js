@@ -433,6 +433,8 @@ export default function Home() {
         </Grid>
       </Grid>
 
+      {/* End parallax section */}
+
 
       {/* Grid Row */}
 
@@ -587,6 +589,38 @@ export default function Home() {
 
 
 
+
+{/* FOOTER */}
+
+{/* parallax section */}
+<Grid
+        container
+        direction="row"
+        spacing={2}
+      >
+        {/* banner section */}
+        <Grid item xs={12} sm={12} md={12} style={{ backgroundColor: 'gray', marginBottom: 10 }} >
+          <Parallax  blur={{ min: -1, max: 8 }}>
+          {/* <Parallax bgImage={image3} blur={{ min: -1, max: 8 }}> */}
+            <div style={{ height: 500 }}>
+              <div style={parallaxText} >
+                <h1 style={{ color: 'black' }}>LOOKING FOR BETTER SOLUTIONS TO PLASTICS ?</h1>
+                <p style={{ color: 'black', marginTop: -10 }}>We have a team ofruWe have a team of resilient designers to take u thruWe have
+                  a team of resilient designers to take u thru</p>
+                <p style={{ color: 'black', marginTop: -10 }}>We have a team ofruWe have a team of resilient designers to take u thruWe have </p>
+                {/* button */}
+                <Button variant="contained" color="primary" size="large">JOIN TODAY</Button>
+                <Button variant="contained" color="success" size="large" style={{ marginLeft: 20 }}>TALK TO US</Button>
+              </div>
+            </div>
+          </Parallax>
+        </Grid>
+      </Grid>
+
+      {/* End parallax section */}
+
+
+{/* END OF FOOTER */}
 
 
 
