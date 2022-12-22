@@ -377,7 +377,7 @@ export default function Home() {
           {/* icon */}
           <h2 style={{ backgroundColor: '', fontSize: 50, color: 'black', textAlign: 'left', fontFamily: "Playfair Display" }}>
             Become a monthly giver and save a child’s life today</h2>
-          <p style={{ backgroundColor: '', textAlign: 'left' }}>
+          <p style={{ backgroundColor: '', textAlign: 'justify', padding:10 }}>
             Since 1991, Multiple Industries Limited has been leading the way in the
             manufacturing and trading of Domestic and Industrial Building Materials in Uganda.
             <br></br><br></br>
@@ -599,15 +599,25 @@ export default function Home() {
         spacing={2}
       >
         {/* banner section */}
-        <Grid item xs={12} sm={12} md={12} style={{ backgroundColor: 'gray', marginBottom: 10 }} >
+        <Grid item xs={12} sm={12} md={12} 
+        style={{ 
+                backgroundColor: 'black', 
+                marginBottom: 10 ,
+                marginTop:40,
+                borderTopLeftRadius:200 ,
+                borderTopRightRadius:200
+
+
+                 }} >
+
           <Parallax  blur={{ min: -1, max: 8 }}>
           {/* <Parallax bgImage={image3} blur={{ min: -1, max: 8 }}> */}
             <div style={{ height: 500 }}>
               <div style={parallaxText} >
-                <h1 style={{ color: 'black' }}>LOOKING FOR BETTER SOLUTIONS TO PLASTICS ?</h1>
-                <p style={{ color: 'black', marginTop: -10 }}>We have a team ofruWe have a team of resilient designers to take u thruWe have
+                <h1 style={{ color: 'white' }}>LOOKING FOR BETTER SOLUTIONS TO PLASTICS ?</h1>
+                <p style={{ color: 'white', marginTop: -10 }}>We have a team ofruWe have a team of resilient designers to take u thruWe have
                   a team of resilient designers to take u thru</p>
-                <p style={{ color: 'black', marginTop: -10 }}>We have a team ofruWe have a team of resilient designers to take u thruWe have </p>
+                <p style={{ color: 'white', marginTop: -10 }}>We have a team ofruWe have a team of resilient designers to take u thruWe have </p>
                 {/* button */}
                 <Button variant="contained" color="primary" size="large">JOIN TODAY</Button>
                 <Button variant="contained" color="success" size="large" style={{ marginLeft: 20 }}>TALK TO US</Button>
