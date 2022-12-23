@@ -614,7 +614,7 @@ export default function Home() {
           {/* <Parallax bgImage={image3} blur={{ min: -1, max: 8 }}> */}
             <div style={{ height: 500 }}>
               <div style={parallaxText} >
-                <h1 style={{ color: 'white' }}>LOOKING FOR BETTER SOLUTIONS TO PLASTICS ?</h1>
+                <h1 style={{ color: 'white' }}>LOOKING FOR BETTER  TO PLASTICS ?</h1>
                 <p style={{ color: 'white', marginTop: -10 }}>We have a team ofruWe have a team of resilient designers to take u thruWe have
                   a team of resilient designers to take u thru</p>
                 <p style={{ color: 'white', marginTop: -10 }}>We have a team ofruWe have a team of resilient designers to take u thruWe have </p>
