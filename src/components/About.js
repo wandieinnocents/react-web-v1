@@ -62,6 +62,8 @@ const parallaxText = {
 // end of parallax
 export default function Home() {
   return (
+
+    // General Box Layout
     <Box sx={{ flexGrow: 1 }}>
       {/* Grid */}
       {/* parallax section */}
@@ -404,6 +406,7 @@ export default function Home() {
 
 
     </Box>
+    // End of // General Box Layout
   );
 }
 
