@@ -75,24 +75,19 @@ export default function Home() {
         {/* banner section */}
         <Grid item xs={12} sm={12} md={12} style={{ backgroundColor: '', marginBottom: 10 }} >
           <Parallax bgImage={image4} blur={{ min: -1, max: 6 }} strength={-100}>
-            <div style={{ height: 500 }}>
+            <div style={{ height: 300 }}>
               <div style={parallaxText} >
-                <h1 style={{ color: 'black', fontSize: 80 }}>MULTIPLE INDUSTRIES</h1>
-                <p style={{ color: 'black', fontSize: 30, marginTop: -50 }}>
-                  We have a team ofruWe have a team of resilient designers to take
-                  <br></br> u thruWe havea team of resilient designers to take u thru
-                  <br></br>team of resilient designers to take u thru</p>
-                {/* button */}
-                <Button variant="contained" color="primary" size="large">JOIN TODAY</Button>
-                <Button variant="contained" color="success" size="large" style={{ marginLeft: 20 }}>TALK TO US</Button>
+                <h1 style={{ color: 'black', fontSize: 30 }}>ABOUT US</h1>
+                <p style={{ color: 'black', fontSize: 20, marginTop: -40 }}>
+                 
+                  <br></br>Know more about Us</p>
+               
               </div>
             </div>
           </Parallax>
         </Grid>
       </Grid>
 
-
-      {/* End of featured icons */}
 
 
       {/* Grid Row */}
@@ -126,7 +121,7 @@ export default function Home() {
 
 
       </Grid>
-      {/* Grid Row */}
+      {/* End of Grid Row */}
 
 
 
