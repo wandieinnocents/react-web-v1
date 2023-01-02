@@ -604,8 +604,8 @@ export default function Home() {
                 backgroundColor: 'black', 
                 marginBottom: 10 ,
                 marginTop:40,
-                borderTopLeftRadius:200 ,
-                borderTopRightRadius:200
+                // borderTopLeftRadius:200 ,
+                // borderTopRightRadius:200
 
 
                  }} >
