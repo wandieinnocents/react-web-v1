@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
@@ -60,8 +59,8 @@ const parallaxText = {
   width: "100%",
   transform: "translate(-50%,-50%)"
 };
-
-export default function About() {
+// end of parallax
+export default function Home() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       {/* Grid */}
@@ -638,3 +637,7 @@ export default function About() {
     </Box>
   );
 }
+
+
+
+// create the Home stylesheet here
