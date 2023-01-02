@@ -60,7 +60,7 @@ const parallaxText = {
   transform: "translate(-50%,-50%)"
 };
 // end of parallax
-export default function Home() {
+export default function Services() {
   return (
 
     // General Box Layout
@@ -77,10 +77,10 @@ export default function Home() {
           <Parallax bgImage={image3} blur={{ min: -1, max: 6 }} strength={-100}>
             <div style={{ height: 300 }}>
               <div style={parallaxText} >
-                <h1 style={{ color: 'black', fontSize: 30 }}>ABOUT US</h1>
+                <h1 style={{ color: 'black', fontSize: 30 }}>SERVICES</h1>
                 <p style={{ color: 'black', fontSize: 20, marginTop: -40 }}>
                  
-                  <br></br>Know more about Us</p>
+                  <br></br>Check Our Services</p>
                
               </div>
             </div>

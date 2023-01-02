@@ -11,6 +11,7 @@ import Contact from './components/Contact';
 import NoPage from './components/NoPage';
 import Layout from './components/Layout';
 import About from './components/About';
+import Services from './components/Services';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,10 +22,12 @@ root.render(
 
   <BrowserRouter>
   <Routes>
+    {/* Register all routes */}
     {/* General layout file : Layout */}
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
+          <Route path="services" element={<Services />} />
           <Route path="blogs" element={<Blogs />} />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
