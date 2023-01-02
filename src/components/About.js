@@ -74,7 +74,7 @@ export default function Home() {
       >
         {/* banner section */}
         <Grid item xs={12} sm={12} md={12} style={{ backgroundColor: '', marginBottom: 10 }} >
-          <Parallax bgImage={image4} blur={{ min: -1, max: 6 }} strength={-100}>
+          <Parallax bgImage={image3} blur={{ min: -1, max: 6 }} strength={-100}>
             <div style={{ height: 300 }}>
               <div style={parallaxText} >
                 <h1 style={{ color: 'black', fontSize: 30 }}>ABOUT US</h1>
