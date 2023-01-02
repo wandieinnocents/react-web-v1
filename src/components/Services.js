@@ -209,8 +209,10 @@ export default function Services() {
       </Grid>
       {/* END OF GRID ROW */}
 
-       {/* GRID ROW */}
-       <Grid
+      
+
+      {/* GRID ROW */}
+      <Grid
         container
         direction="row"
         spacing={2}
@@ -238,6 +240,8 @@ export default function Services() {
               as this is a much longer line than what the container can support.
               Truncation should be conditionally applicable on this long line of text
             </Typography>
+
+            <Button style={{  marginTop: 20,marginBottom:20 }} variant="contained" color="primary" size="medium">READ MORE</Button>
           </Item>
         </Grid>
         {/* Column2 */}
@@ -257,6 +261,7 @@ export default function Services() {
               as this is a much longer line than what the container can support.
               Truncation should be conditionally applicable on this long line of text
             </Typography>
+            <Button style={{  marginTop: 20,marginBottom:20 }} variant="contained" color="primary" size="medium">READ MORE</Button>
           </Item>
         </Grid>
         {/* Column3 */}
@@ -276,6 +281,7 @@ export default function Services() {
               as this is a much longer line than what the container can support.
               Truncation should be conditionally applicable on this long line of text
             </Typography>
+            <Button style={{  marginTop: 20,marginBottom:20 }} variant="contained" color="primary" size="medium">READ MORE</Button>
           </Item>
         </Grid>
         {/* right space */}
@@ -286,8 +292,9 @@ export default function Services() {
 
 
 
-       {/* GRID ROW */}
-       <Grid
+
+      {/* GRID ROW */}
+      <Grid
         container
         direction="row"
         spacing={2}
@@ -315,6 +322,8 @@ export default function Services() {
               as this is a much longer line than what the container can support.
               Truncation should be conditionally applicable on this long line of text
             </Typography>
+
+            <Button style={{  marginTop: 20,marginBottom:20 }} variant="contained" color="primary" size="medium">READ MORE</Button>
           </Item>
         </Grid>
         {/* Column2 */}
@@ -334,6 +343,7 @@ export default function Services() {
               as this is a much longer line than what the container can support.
               Truncation should be conditionally applicable on this long line of text
             </Typography>
+            <Button style={{  marginTop: 20,marginBottom:20 }} variant="contained" color="primary" size="medium">READ MORE</Button>
           </Item>
         </Grid>
         {/* Column3 */}
@@ -353,6 +363,7 @@ export default function Services() {
               as this is a much longer line than what the container can support.
               Truncation should be conditionally applicable on this long line of text
             </Typography>
+            <Button style={{  marginTop: 20,marginBottom:20 }} variant="contained" color="primary" size="medium">READ MORE</Button>
           </Item>
         </Grid>
         {/* right space */}
@@ -363,82 +374,6 @@ export default function Services() {
 
 
 
-
-
- {/* GRID ROW */}
- <Grid
-        container
-        direction="row"
-        spacing={2}
-      // style={{ marginTop:250 }}
-
-      // style={{marginTop:250, position:'relative'}}
-      >
-        {/* left space */}
-        <Grid item xs={12} sm={1.5} md={1.5} >
-        </Grid>
-        {/* Column1 */}
-        <Grid item xs={12} sm={3} md={3} >
-          <Item style={{ backgroundColor: '', padding: 6 }}>
-            {/* icon */}
-            <img
-              src={require('../assets/mission.png')}
-              alt="Trees"
-              width="20%"
-              height="20%"
-              style={{ marginTop: 30 }}
-            />
-            <h1>MISSION</h1>
-            <Typography >
-              Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can support.
-              Truncation should be conditionally applicable on this long line of text
-            </Typography>
-          </Item>
-        </Grid>
-        {/* Column2 */}
-        <Grid item xs={12} sm={3} md={3}>
-          <Item style={{ backgroundColor: '', padding: 6, marginBottom: 10 }}>
-            {/* icon */}
-            <img
-              src={require('../assets/vision.png')}
-              alt="Trees"
-              width="20%"
-              height="20%"
-              style={{ marginTop: 30 }}
-            />
-            <h1>VISION</h1>
-            <Typography >
-              Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can support.
-              Truncation should be conditionally applicable on this long line of text
-            </Typography>
-          </Item>
-        </Grid>
-        {/* Column3 */}
-        <Grid item xs={12} sm={3} md={3}>
-          <Item style={{ backgroundColor: '', padding: 6, marginBottom: 10 }}>
-            {/* icon */}
-            <img
-              src={require('../assets/values.png')}
-              alt="Trees"
-              width="20%"
-              height="20%"
-              style={{ marginTop: 30 }}
-            />
-            <h1>CORE VALUES</h1>
-            <Typography >
-              Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can support.
-              Truncation should be conditionally applicable on this long line of text
-            </Typography>
-          </Item>
-        </Grid>
-        {/* right space */}
-        <Grid item xs={12} sm={1.5} md={1.5} >
-        </Grid>
-      </Grid>
-      {/* END OF GRID ROW */}
 
 
 
