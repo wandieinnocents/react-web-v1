@@ -51,23 +51,31 @@ export default function Layout() {
                     <nav >
                       <ul className="listHorizontal">
                         <li  >
-                          <Link to="/"> Home |  </Link>
+                          <Link to="/"> HOME |  </Link>
                         </li>
                         <li>
-                          <Link to="/about"> About  | </Link>
+                          <Link to="/about"> ABOUT  |  </Link>
                         </li>
                         <li>
-                          <Link to="/services"> services | </Link>
+                          <Link to="/services"> SERVICES | </Link>
                         </li>
+
+                        <li>
+                          <Link to="/blogs"> TEAM  |</Link>
+                        </li>
+
                         <li  >
-                          <Link to="/"> Blogs |  </Link>
+                          <Link to="/"> BLOGS |  </Link>
                         </li>
+                      
                         <li>
-                          <Link to="/blogs"> Contact  |</Link>
+                          <Link to="/contact"> CONTACT |  </Link>
                         </li>
+
                         <li>
-                          <Link to="/contact"> Contact </Link>
+                          <Link to="/contact"> PRODUCTS </Link>
                         </li>
+
                       </ul>
                     </nav>
 
