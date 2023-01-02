@@ -54,16 +54,16 @@ export default function Layout() {
                           <Link to="/"> Home |  </Link>
                         </li>
                         <li>
-                          <Link to="/blogs"> Blogs  |</Link>
+                          <Link to="/blogs"> About  | </Link>
                         </li>
                         <li>
-                          <Link to="/contact"> Contact </Link>
+                          <Link to="/contact"> services | </Link>
                         </li>
                         <li  >
-                          <Link to="/"> Home |  </Link>
+                          <Link to="/"> Blogs |  </Link>
                         </li>
                         <li>
-                          <Link to="/blogs"> Blogs  |</Link>
+                          <Link to="/blogs"> Contact  |</Link>
                         </li>
                         <li>
                           <Link to="/contact"> Contact </Link>
