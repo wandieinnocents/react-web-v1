@@ -891,72 +891,21 @@ export default function Team() {
         <Grid item xs={12} sm={3} md={3}>
         <Item style={{ backgroundColor: '', padding: 6 }}>
             {/* icon */}
-            <img
-              src={require('../assets/team/wandie.png')}
-              alt="Trees"
-              width="30%"
-              height="30%"
-              style={{ marginTop: 30 }}
-            />
+          
 
-            {/* social icons */}
-            <Stack
-              direction="row"
-              alignItems="center"
-              justifyContent="center"
-              divider={<Divider orientation="vertical" flexItem />}
-              spacing={1}
-            >
+
+            <h3 style={{ color:'black' }}>How to start a career in technology  </h3>
+
+
+              {/* Author */}
+              <h4 style={{ marginTop:10}}>  
+              <Chip label="Author" color="primary" size="small" variant="outlined" /> : Wandie   
+              <Chip style={{ marginLeft:10 }} label="Post Date" size="small"  color="success" />:  12-10-2023 
+              </h4>
+
+            <Typography style={{ marginTop:-10,textAlign:'justify' }}>
+              Truncation should be conditionally applicable on this long line of textlong line of textlong ...
               
-              <Item>
-              <img
-              src={require('../assets/socials/facebook.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-
-              <Item>
-              <img
-              src={require('../assets/socials/twitter.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-
-              <Item>
-              <img
-              src={require('../assets/socials/instagram.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-
-              <Item>
-              <img
-             src={require('../assets/socials/youtube.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-             
-            </Stack>
-
-
-            <h2 style={{ color:'black' }}>WANDIE INNOCENT </h2>
-            <h4 style={{ marginTop:-18,color:'black' }}>Software Engineer / UX Designer </h4>
-            
-            <Typography style={{ marginTop:-18 }}>
-              Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can .
              
             </Typography>
 
