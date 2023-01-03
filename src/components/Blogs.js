@@ -138,14 +138,10 @@ export default function Team() {
         {/* left space */}
         <Grid item xs={12} sm={1} md={1} >
         </Grid>
+
+
         {/* MAIN CONTENT AREA */}
         <Grid item xs={12} sm={7} md={7} >
-        
-
-         
-
-
-
             {/* MAIN CONTENT GRID SECTIONS  */}
          <Grid
               container
@@ -166,9 +162,6 @@ export default function Team() {
                         height="70%"
                         style={{ marginTop: 30 }}
                       />
-
-                    
-
 
                       {/* Author */}
                       <h4 style={{ marginTop:10}}>  
@@ -260,13 +253,12 @@ export default function Team() {
                       
 
                     </Item>
-                    
-
-
-
-                    
                   </Grid>
                   {/*  END BLOG CONTENT GRID COL 1 */}
+
+
+
+
 
                   {/*  BLOG CONTENT GRID COL 2 */}
                   <Grid item xs={12} sm={6} md={6} >
@@ -388,241 +380,482 @@ export default function Team() {
 
 
             {/* MAIN CONTENT GRID SECTIONS  */}
-         <Grid
-              container
-              direction="row"
-              spacing={2}
+              <Grid
+                    container
+                    direction="row"
+                    spacing={2}
 
-            >
-            
-            
-                  {/*  BLOG CONTENT GRID COL 1 */}
-                  <Grid item xs={12} sm={6} md={6} >
-                    <Item style={{ backgroundColor: '', padding: 6 }}>
-                      {/* icon */}
-                      <img
-                        src={require('../assets/blogs/te.jpeg')}
-                        alt="Trees"
-                        width="100%"
-                        height="70%"
-                        style={{ marginTop: 30 }}
-                      />
-
-                    
-
-
-                      {/* Author */}
-                      <h4 style={{ marginTop:10}}>  
-                      <Chip label="Author" color="primary" size="small" variant="outlined" /> : Wandie   
-                      <Chip style={{ marginLeft:10 }} label="Post Date" size="small"  color="success" />:  12-10-2023 
-                      </h4>
-                      
-                    
-                      <h2 style={{ color:'black' }}>How to start a career in technology today in ug. </h2>
-                      
-                      <Typography style={{ marginTop:-10,textAlign:'justify' }}>
-                        Truncation should be conditionally applicable on this long line of text
-                        as this is a much longer line than what the container can .Truncation should be conditionally applicable on this long line of text
-                        as this is a much longer line than what the container can handl.
-                      
-                      </Typography>
-
-                      {/* button readmore */}
-                      <hr></hr>
-
-                      {/* icons */}
-                      <Stack
-                        direction="row"
-                        alignItems="center"
-                        justifyContent="center"
-                        divider={<Divider orientation="vertical" flexItem />}
-                        spacing={1}
-                      >
-                      
-
-                        
-                        <Item>
-                        <img
-                        src={require('../assets/socials/facebook.png')}
-                        alt="Trees"
-                        width="40%"
-                        height="40%"
-                        // style={{ marginTop: 10 }}
-                      />
-                        </Item>
-
-                        <Item>
-                        <img
-                        src={require('../assets/socials/twitter.png')}
-                        alt="Trees"
-                        width="40%"
-                        height="40%"
-                        // style={{ marginTop: 10 }}
-                      />
-                        </Item>
-
-                        <Item>
-                        <img
-                        src={require('../assets/socials/instagram.png')}
-                        alt="Trees"
-                        width="40%"
-                        height="40%"
-                        // style={{ marginTop: 10 }}
-                      />
-                        </Item>
-
-                        <Item>
-                        <img
-                      src={require('../assets/socials/youtube.png')}
-                        alt="Trees"
-                        width="40%"
-                        height="40%"
-                        // style={{ marginTop: 10 }}
-                      />
-                        </Item>
-                      
-                      </Stack>
-                      {/* End of icons */}
-
-
-                      <Stack 
-                      direction="row"
-                      alignContent="center"  
-                      alignItems="center"
-                      justifyContent="center"
-                      spacing={2}  
-                      >
-                        
-                        <Button style={{ marginTop:10 , width:'100%' }} variant="contained"  color="secondary" endIcon={<SendIcon />}>
-                        Read more
-                        </Button>
-                      </Stack>
-                    
-                      
-
-                    </Item>
-                    
-
-
-
-                    
-                  </Grid>
-                  {/*  END BLOG CONTENT GRID COL 1 */}
-
-                  {/*  BLOG CONTENT GRID COL 2 */}
-                  <Grid item xs={12} sm={6} md={6} >
-                    <Item style={{ backgroundColor: '', padding: 6 }}>
-                      {/* icon */}
-                      <img
-                        src={require('../assets/blogs/te.jpeg')}
-                        alt="Trees"
-                        width="100%"
-                        height="70%"
-                        style={{ marginTop: 30 }}
-                      />
-
-                    
-
-                      {/* Author */}
-                      <h4 style={{ marginTop:10}}>  
-                      <Chip label="Author" color="primary" size="small" variant="outlined" /> : Wandie   
-                      <Chip style={{ marginLeft:10 }} label="Post Date" size="small"  color="success" />:  12-10-2023 
-                      </h4>
-                      
-                    
-                      <h2 style={{ color:'black' }}>How to start a career in technology today in ug. </h2>
-                      
-                      <Typography style={{ marginTop:-10,textAlign:'justify' }}>
-                        Truncation should be conditionally applicable on this long line of text
-                        as this is a much longer line than what the container can .Truncation should be conditionally applicable on this long line of text
-                        as this is a much longer line than what the container can handl.
-                      
-                      </Typography>
-
-                      {/* button readmore */}
-                      <hr></hr>
-
-                      {/* icons */}
-                      <Stack
-                        direction="row"
-                        alignItems="center"
-                        justifyContent="center"
-                        divider={<Divider orientation="vertical" flexItem />}
-                        spacing={1}
-                      >
-                      
-
-                        
-                        <Item>
-                        <img
-                        src={require('../assets/socials/facebook.png')}
-                        alt="Trees"
-                        width="40%"
-                        height="40%"
-                        // style={{ marginTop: 10 }}
-                      />
-                        </Item>
-
-                        <Item>
-                        <img
-                        src={require('../assets/socials/twitter.png')}
-                        alt="Trees"
-                        width="40%"
-                        height="40%"
-                        // style={{ marginTop: 10 }}
-                      />
-                        </Item>
-
-                        <Item>
-                        <img
-                        src={require('../assets/socials/instagram.png')}
-                        alt="Trees"
-                        width="40%"
-                        height="40%"
-                        // style={{ marginTop: 10 }}
-                      />
-                        </Item>
-
-                        <Item>
-                        <img
-                      src={require('../assets/socials/youtube.png')}
-                        alt="Trees"
-                        width="40%"
-                        height="40%"
-                        // style={{ marginTop: 10 }}
-                      />
-                        </Item>
-                      
-                      </Stack>
-                      {/* End of icons */}
-
-
-                      <Stack 
-                      direction="row"
-                      alignContent="center"  
-                      alignItems="center"
-                      justifyContent="center"
-                      spacing={2}  
-                      >
-                        
-                        <Button style={{ marginTop:10 , width:'100%' }} variant="contained"  color="secondary" endIcon={<SendIcon />}>
-                        Read more
-                        </Button>
-                      </Stack>
-                    
-                      
-
-                    </Item>
-                    
-
-
-
-                    
-                  </Grid>
-                   {/*  END BLOG CONTENT GRID COL 2 */}
+                  >
                   
+                  
+                        {/*  BLOG CONTENT GRID COL 1 */}
+                        <Grid item xs={12} sm={6} md={6} >
+                          <Item style={{ backgroundColor: '', padding: 6 }}>
+                            {/* icon */}
+                            <img
+                              src={require('../assets/blogs/te.jpeg')}
+                              alt="Trees"
+                              width="100%"
+                              height="70%"
+                              style={{ marginTop: 30 }}
+                            />
 
-            </Grid>
+                          
+
+
+                            {/* Author */}
+                            <h4 style={{ marginTop:10}}>  
+                            <Chip label="Author" color="primary" size="small" variant="outlined" /> : Wandie   
+                            <Chip style={{ marginLeft:10 }} label="Post Date" size="small"  color="success" />:  12-10-2023 
+                            </h4>
+                            
+                          
+                            <h2 style={{ color:'black' }}>How to start a career in technology today in ug. </h2>
+                            
+                            <Typography style={{ marginTop:-10,textAlign:'justify' }}>
+                              Truncation should be conditionally applicable on this long line of text
+                              as this is a much longer line than what the container can .Truncation should be conditionally applicable on this long line of text
+                              as this is a much longer line than what the container can handl.
+                            
+                            </Typography>
+
+                            {/* button readmore */}
+                            <hr></hr>
+
+                            {/* icons */}
+                            <Stack
+                              direction="row"
+                              alignItems="center"
+                              justifyContent="center"
+                              divider={<Divider orientation="vertical" flexItem />}
+                              spacing={1}
+                            >
+                            
+
+                              
+                              <Item>
+                              <img
+                              src={require('../assets/socials/facebook.png')}
+                              alt="Trees"
+                              width="40%"
+                              height="40%"
+                              // style={{ marginTop: 10 }}
+                            />
+                              </Item>
+
+                              <Item>
+                              <img
+                              src={require('../assets/socials/twitter.png')}
+                              alt="Trees"
+                              width="40%"
+                              height="40%"
+                              // style={{ marginTop: 10 }}
+                            />
+                              </Item>
+
+                              <Item>
+                              <img
+                              src={require('../assets/socials/instagram.png')}
+                              alt="Trees"
+                              width="40%"
+                              height="40%"
+                              // style={{ marginTop: 10 }}
+                            />
+                              </Item>
+
+                              <Item>
+                              <img
+                            src={require('../assets/socials/youtube.png')}
+                              alt="Trees"
+                              width="40%"
+                              height="40%"
+                              // style={{ marginTop: 10 }}
+                            />
+                              </Item>
+                            
+                            </Stack>
+                            {/* End of icons */}
+
+
+                            <Stack 
+                            direction="row"
+                            alignContent="center"  
+                            alignItems="center"
+                            justifyContent="center"
+                            spacing={2}  
+                            >
+                              
+                              <Button style={{ marginTop:10 , width:'100%' }} variant="contained"  color="secondary" endIcon={<SendIcon />}>
+                              Read more
+                              </Button>
+                            </Stack>
+                          
+                            
+
+                          </Item>
+                          
+
+
+
+                          
+                        </Grid>
+                        {/*  END BLOG CONTENT GRID COL 1 */}
+
+                        {/*  BLOG CONTENT GRID COL 2 */}
+                        <Grid item xs={12} sm={6} md={6} >
+                          <Item style={{ backgroundColor: '', padding: 6 }}>
+                            {/* icon */}
+                            <img
+                              src={require('../assets/blogs/te.jpeg')}
+                              alt="Trees"
+                              width="100%"
+                              height="70%"
+                              style={{ marginTop: 30 }}
+                            />
+
+                          
+
+                            {/* Author */}
+                            <h4 style={{ marginTop:10}}>  
+                            <Chip label="Author" color="primary" size="small" variant="outlined" /> : Wandie   
+                            <Chip style={{ marginLeft:10 }} label="Post Date" size="small"  color="success" />:  12-10-2023 
+                            </h4>
+                            
+                          
+                            <h2 style={{ color:'black' }}>How to start a career in technology today in ug. </h2>
+                            
+                            <Typography style={{ marginTop:-10,textAlign:'justify' }}>
+                              Truncation should be conditionally applicable on this long line of text
+                              as this is a much longer line than what the container can .Truncation should be conditionally applicable on this long line of text
+                              as this is a much longer line than what the container can handl.
+                            
+                            </Typography>
+
+                            {/* button readmore */}
+                            <hr></hr>
+
+                            {/* icons */}
+                            <Stack
+                              direction="row"
+                              alignItems="center"
+                              justifyContent="center"
+                              divider={<Divider orientation="vertical" flexItem />}
+                              spacing={1}
+                            >
+                            
+
+                              
+                              <Item>
+                              <img
+                              src={require('../assets/socials/facebook.png')}
+                              alt="Trees"
+                              width="40%"
+                              height="40%"
+                              // style={{ marginTop: 10 }}
+                            />
+                              </Item>
+
+                              <Item>
+                              <img
+                              src={require('../assets/socials/twitter.png')}
+                              alt="Trees"
+                              width="40%"
+                              height="40%"
+                              // style={{ marginTop: 10 }}
+                            />
+                              </Item>
+
+                              <Item>
+                              <img
+                              src={require('../assets/socials/instagram.png')}
+                              alt="Trees"
+                              width="40%"
+                              height="40%"
+                              // style={{ marginTop: 10 }}
+                            />
+                              </Item>
+
+                              <Item>
+                              <img
+                            src={require('../assets/socials/youtube.png')}
+                              alt="Trees"
+                              width="40%"
+                              height="40%"
+                              // style={{ marginTop: 10 }}
+                            />
+                              </Item>
+                            
+                            </Stack>
+                            {/* End of icons */}
+
+
+                            <Stack 
+                            direction="row"
+                            alignContent="center"  
+                            alignItems="center"
+                            justifyContent="center"
+                            spacing={2}  
+                            >
+                              
+                              <Button style={{ marginTop:10 , width:'100%' }} variant="contained"  color="secondary" endIcon={<SendIcon />}>
+                              Read more
+                              </Button>
+                            </Stack>
+                          
+                            
+
+                          </Item>
+                          
+
+
+
+                          
+                        </Grid>
+                        {/*  END BLOG CONTENT GRID COL 2 */}
+
+                  </Grid>
+                  
+            {/* END BLOG CONTENT GRID COL 2 */}
+
+
+
+
+            {/* MAIN CONTENT GRID SECTIONS  */}
+            <Grid
+                    container
+                    direction="row"
+                    spacing={2}
+
+                  >
+                  
+                  
+                        {/*  BLOG CONTENT GRID COL 1 */}
+                        <Grid item xs={12} sm={6} md={6} >
+                          <Item style={{ backgroundColor: '', padding: 6 }}>
+                            {/* icon */}
+                            <img
+                              src={require('../assets/blogs/te.jpeg')}
+                              alt="Trees"
+                              width="100%"
+                              height="70%"
+                              style={{ marginTop: 30 }}
+                            />
+
+                          
+
+
+                            {/* Author */}
+                            <h4 style={{ marginTop:10}}>  
+                            <Chip label="Author" color="primary" size="small" variant="outlined" /> : Wandie   
+                            <Chip style={{ marginLeft:10 }} label="Post Date" size="small"  color="success" />:  12-10-2023 
+                            </h4>
+                            
+                          
+                            <h2 style={{ color:'black' }}>How to start a career in technology today in ug. </h2>
+                            
+                            <Typography style={{ marginTop:-10,textAlign:'justify' }}>
+                              Truncation should be conditionally applicable on this long line of text
+                              as this is a much longer line than what the container can .Truncation should be conditionally applicable on this long line of text
+                              as this is a much longer line than what the container can handl.
+                            
+                            </Typography>
+
+                            {/* button readmore */}
+                            <hr></hr>
+
+                            {/* icons */}
+                            <Stack
+                              direction="row"
+                              alignItems="center"
+                              justifyContent="center"
+                              divider={<Divider orientation="vertical" flexItem />}
+                              spacing={1}
+                            >
+                            
+
+                              
+                              <Item>
+                              <img
+                              src={require('../assets/socials/facebook.png')}
+                              alt="Trees"
+                              width="40%"
+                              height="40%"
+                              // style={{ marginTop: 10 }}
+                            />
+                              </Item>
+
+                              <Item>
+                              <img
+                              src={require('../assets/socials/twitter.png')}
+                              alt="Trees"
+                              width="40%"
+                              height="40%"
+                              // style={{ marginTop: 10 }}
+                            />
+                              </Item>
+
+                              <Item>
+                              <img
+                              src={require('../assets/socials/instagram.png')}
+                              alt="Trees"
+                              width="40%"
+                              height="40%"
+                              // style={{ marginTop: 10 }}
+                            />
+                              </Item>
+
+                              <Item>
+                              <img
+                            src={require('../assets/socials/youtube.png')}
+                              alt="Trees"
+                              width="40%"
+                              height="40%"
+                              // style={{ marginTop: 10 }}
+                            />
+                              </Item>
+                            
+                            </Stack>
+                            {/* End of icons */}
+
+
+                            <Stack 
+                            direction="row"
+                            alignContent="center"  
+                            alignItems="center"
+                            justifyContent="center"
+                            spacing={2}  
+                            >
+                              
+                              <Button style={{ marginTop:10 , width:'100%' }} variant="contained"  color="secondary" endIcon={<SendIcon />}>
+                              Read more
+                              </Button>
+                            </Stack>
+                          
+                            
+
+                          </Item>
+                          
+
+
+
+                          
+                        </Grid>
+                        {/*  END BLOG CONTENT GRID COL 1 */}
+
+                        {/*  BLOG CONTENT GRID COL 2 */}
+                        <Grid item xs={12} sm={6} md={6} >
+                          <Item style={{ backgroundColor: '', padding: 6 }}>
+                            {/* icon */}
+                            <img
+                              src={require('../assets/blogs/te.jpeg')}
+                              alt="Trees"
+                              width="100%"
+                              height="70%"
+                              style={{ marginTop: 30 }}
+                            />
+
+                          
+
+                            {/* Author */}
+                            <h4 style={{ marginTop:10}}>  
+                            <Chip label="Author" color="primary" size="small" variant="outlined" /> : Wandie   
+                            <Chip style={{ marginLeft:10 }} label="Post Date" size="small"  color="success" />:  12-10-2023 
+                            </h4>
+                            
+                          
+                            <h2 style={{ color:'black' }}>How to start a career in technology today in ug. </h2>
+                            
+                            <Typography style={{ marginTop:-10,textAlign:'justify' }}>
+                              Truncation should be conditionally applicable on this long line of text
+                              as this is a much longer line than what the container can .Truncation should be conditionally applicable on this long line of text
+                              as this is a much longer line than what the container can handl.
+                            
+                            </Typography>
+
+                            {/* button readmore */}
+                            <hr></hr>
+
+                            {/* icons */}
+                            <Stack
+                              direction="row"
+                              alignItems="center"
+                              justifyContent="center"
+                              divider={<Divider orientation="vertical" flexItem />}
+                              spacing={1}
+                            >
+                            
+
+                              
+                              <Item>
+                              <img
+                              src={require('../assets/socials/facebook.png')}
+                              alt="Trees"
+                              width="40%"
+                              height="40%"
+                              // style={{ marginTop: 10 }}
+                            />
+                              </Item>
+
+                              <Item>
+                              <img
+                              src={require('../assets/socials/twitter.png')}
+                              alt="Trees"
+                              width="40%"
+                              height="40%"
+                              // style={{ marginTop: 10 }}
+                            />
+                              </Item>
+
+                              <Item>
+                              <img
+                              src={require('../assets/socials/instagram.png')}
+                              alt="Trees"
+                              width="40%"
+                              height="40%"
+                              // style={{ marginTop: 10 }}
+                            />
+                              </Item>
+
+                              <Item>
+                              <img
+                            src={require('../assets/socials/youtube.png')}
+                              alt="Trees"
+                              width="40%"
+                              height="40%"
+                              // style={{ marginTop: 10 }}
+                            />
+                              </Item>
+                            
+                            </Stack>
+                            {/* End of icons */}
+
+
+                            <Stack 
+                            direction="row"
+                            alignContent="center"  
+                            alignItems="center"
+                            justifyContent="center"
+                            spacing={2}  
+                            >
+                              
+                              <Button style={{ marginTop:10 , width:'100%' }} variant="contained"  color="secondary" endIcon={<SendIcon />}>
+                              Read more
+                              </Button>
+                            </Stack>
+                          
+                            
+
+                          </Item>
+                          
+
+
+
+                          
+                        </Grid>
+                        {/*  END BLOG CONTENT GRID COL 2 */}
+
+                  </Grid>
+                  
             {/* END BLOG CONTENT GRID COL 2 */}
            
       
@@ -630,6 +863,9 @@ export default function Team() {
         </Grid>
 
         {/* END OF MAIN CONTENT AREA */}
+
+
+        
 
       
 
@@ -696,6 +932,42 @@ export default function Team() {
           </Item>
           {/* End of rescnet post article */}
 
+
+        {/* start of rescnet post article */}
+        <Item style={{ backgroundColor: '', padding: 6 }}>
+            {/* icon */}
+          
+
+
+            <h3 style={{ color:'black' }}>How to start a career in technology  </h3>
+
+
+              {/* Author */}
+              <h4 style={{ marginTop:10}}>  
+              <Chip label="Author" color="primary" size="small" variant="outlined" /> : Wandie   
+              <Chip style={{ marginLeft:10 }} label="Post Date" size="small"  color="success" />:  12-10-2023 
+              </h4>
+
+            <Typography style={{ marginTop:-10,textAlign:'justify' }}>
+              Truncation should be conditionally applicable on this long line of textlong line of textlong ...
+              
+             
+            </Typography>
+            <Stack 
+                      direction="row"
+                      alignContent="center"  
+                      alignItems="center"
+                      justifyContent="center"
+                      spacing={2}  
+                      >
+                        
+                        <Button style={{ marginTop:10 , width:'100%' }} variant="contained"  color="secondary" endIcon={<SendIcon />}>
+                        Read more
+                        </Button>
+                      </Stack>
+
+          </Item>
+          {/* End of rescnet post article */}
 
 
         {/* start of rescnet post article */}
