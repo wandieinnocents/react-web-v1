@@ -57,10 +57,7 @@ export default function Layout() {
                           <Link to="/about"> ABOUT  |  </Link>
                         </li>
 
-                        <li>
-                          <Link to="/gallery"> GALLERY  |  </Link>
-                        </li>
-
+                       
                         <li>
                           <Link to="/services"> SERVICES | </Link>
                         </li>
@@ -68,6 +65,11 @@ export default function Layout() {
                         <li>
                           <Link to="/team"> TEAM  |</Link>
                         </li>
+
+                        <li>
+                          <Link to="/gallery"> GALLERY  |  </Link>
+                        </li>
+
 
                         <li  >
                           <Link to="/"> BLOGS |  </Link>

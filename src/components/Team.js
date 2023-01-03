@@ -9,6 +9,7 @@ import { Parallax, Background } from "react-parallax";
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import BackgroundSlideshow from 'react-background-slideshow'
+import { Hidden } from '@mui/material';
 
 
 import image5 from '../assets/nature.jpeg'
@@ -150,6 +151,8 @@ export default function Team() {
             />
 
             {/* social icons */}
+
+
             <Stack
               direction="row"
               alignItems="center"
@@ -157,6 +160,7 @@ export default function Team() {
               divider={<Divider orientation="vertical" flexItem />}
               spacing={1}
             >
+
               
               <Item>
               <img
