@@ -143,7 +143,7 @@ export default function Team() {
           <Item style={{ backgroundColor: '', padding: 6 }}>
             {/* icon */}
             <img
-              src={require('../assets/team/wandie.png')}
+              src={require('../assets/blogs/te.jpeg')}
               alt="Trees"
               width="100%"
               height="70%"
@@ -205,12 +205,14 @@ export default function Team() {
             </Stack>
 
 
-            <h2 style={{ color:'black' }}>How to start a career in technology </h2>
-            <h4 style={{ marginTop:-18}}> By : Wandie innocent |  12-10-2023 </h4>
             
-            <Typography style={{ marginTop:-10 }}>
+            <h4 style={{ marginTop:10}}> Author : Wandie | Date:  12-10-2023 </h4>
+            <h2 style={{ color:'black' }}>How to start a career in technology today in ug. </h2>
+            
+            <Typography style={{ marginTop:-10,textAlign:'justify' }}>
               Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can .
+              as this is a much longer line than what the container can .Truncation should be conditionally applicable on this long line of text
+              as this is a much longer line than what the container can handl.
              
             </Typography>
 
@@ -227,7 +229,7 @@ export default function Team() {
           <Item style={{ backgroundColor: '', padding: 6 }}>
             {/* icon */}
             <img
-              src={require('../assets/team/wandie.png')}
+              src={require('../assets/blogs/te.jpeg')}
               alt="Trees"
               width="100%"
               height="70%"
@@ -289,16 +291,23 @@ export default function Team() {
             </Stack>
 
 
-            <h2 style={{ color:'black' }}>WANDIE INNOCENT </h2>
-            <h4 style={{ marginTop:-18,color:'black' }}>Software Engineer / UX Designer </h4>
             
-            <Typography style={{ marginTop:-18 }}>
+            <h4 style={{ marginTop:10}}> Author : Wandie | Date:  12-10-2023 </h4>
+            <h2 style={{ color:'black' }}>How to start a career in technology today in ug. </h2>
+            
+            <Typography style={{ marginTop:-10,textAlign:'justify' }}>
               Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can .
+              as this is a much longer line than what the container can .Truncation should be conditionally applicable on this long line of text
+              as this is a much longer line than what the container can handl.
              
             </Typography>
 
+            <Button variant="contained" color="success" size="medium" style={{ marginTop:10}}>Read More</Button>
+
+
           </Item>
+
+          
         </Grid>
 
 
