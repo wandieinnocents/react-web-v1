@@ -143,21 +143,44 @@ export default function Gallery() {
       // style={{marginTop:250, position:'relative'}}
       >
         {/* left space */}
-        <Grid item xs={12} sm={2} md={2} >
-        <p>ajlaf</p>
+        <Grid item xs={12} sm={1} md={1} >
+        {/* <p>ajlaf</p> */}
         </Grid>
         {/* Column1 */}
        
         {/* Column2 */}
         {/* gallery */}
-        <Grid item xs={12} sm={8} md={8}>
+        <Grid item xs={12} sm={10} md={10}>
         <Item style={{ backgroundColor: '', padding: 6 }}>
           
           
-             
-
-
-            <h2 style={{ color:'black' }}>WANDIE INNOCENT </h2>
+    <ImageList sx={{ width: '100%', height: 2000 }}>
+      <ImageListItem key="Subheader" cols={2}>
+        {/* <ListSubheader component="div" >December</ListSubheader> */}
+      </ImageListItem>
+      {itemData.map((item) => (
+        <ImageListItem key={item.img}>
+          <img
+            src={`${item.img}?w=248&fit=crop&auto=format`}
+            srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+            alt={item.title}
+            loading="lazy"
+          />
+          <ImageListItemBar
+            title={item.title}
+            subtitle={item.author}
+            actionIcon={
+              <IconButton
+                sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
+                aria-label={`info about ${item.title}`}
+              >
+                <InfoIcon />
+              </IconButton>
+            }
+          />
+        </ImageListItem>
+      ))}
+    </ImageList>
           
           
 
@@ -166,8 +189,8 @@ export default function Gallery() {
        
        
         {/* right space */}
-        <Grid item xs={12} sm={2} md={2} >
-        <p>ajlaf</p>
+        <Grid item xs={12} sm={1} md={1} >
+        {/* <p>ajlaf</p> */}
         </Grid>
 
 
