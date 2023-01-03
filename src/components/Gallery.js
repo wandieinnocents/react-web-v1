@@ -26,6 +26,14 @@ import Divider from '@mui/material/Divider';
 
 // Icons
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+// Gallery
+import ImageList from '@mui/material/ImageList';
+import ImageListItem from '@mui/material/ImageListItem';
+import ImageListItemBar from '@mui/material/ImageListItemBar';
+import ListSubheader from '@mui/material/ListSubheader';
+import IconButton from '@mui/material/IconButton';
+import InfoIcon from '@mui/icons-material/Info';
+
 
 
 
@@ -135,485 +143,36 @@ export default function Gallery() {
       // style={{marginTop:250, position:'relative'}}
       >
         {/* left space */}
-        <Grid item xs={12} sm={1.5} md={1.5} >
+        <Grid item xs={12} sm={2} md={2} >
+        <p>ajlaf</p>
         </Grid>
         {/* Column1 */}
-        <Grid item xs={12} sm={3} md={3} >
-          <Item style={{ backgroundColor: '', padding: 6 }}>
-            {/* icon */}
-            <img
-              src={require('../assets/team/wandie.png')}
-              alt="Trees"
-              width="100%"
-              height="70%"
-              style={{ marginTop: 30 }}
-            />
-
-            {/* social icons */}
-            <Stack
-              direction="row"
-              alignItems="center"
-              justifyContent="center"
-              divider={<Divider orientation="vertical" flexItem />}
-              spacing={1}
-            >
-              
-              <Item>
-              <img
-              src={require('../assets/socials/facebook.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-
-              <Item>
-              <img
-              src={require('../assets/socials/twitter.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-
-              <Item>
-              <img
-              src={require('../assets/socials/instagram.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-
-              <Item>
-              <img
-             src={require('../assets/socials/youtube.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-             
-            </Stack>
-
-
-            <h2 style={{ color:'black' }}>WANDIE INNOCENT </h2>
-            <h4 style={{ marginTop:-18,color:'black' }}>Software Engineer / UX Designer </h4>
-            
-            <Typography style={{ marginTop:-18 }}>
-              Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can .
-             
-            </Typography>
-
-          </Item>
-        </Grid>
+       
         {/* Column2 */}
-        <Grid item xs={12} sm={3} md={3}>
+        {/* gallery */}
+        <Grid item xs={12} sm={8} md={8}>
         <Item style={{ backgroundColor: '', padding: 6 }}>
-            {/* icon */}
-            <img
-              src={require('../assets/team/wandie.png')}
-              alt="Trees"
-              width="100%"
-              height="70%"
-              style={{ marginTop: 30 }}
-            />
-
-            {/* social icons */}
-            <Stack
-              direction="row"
-              alignItems="center"
-              justifyContent="center"
-              divider={<Divider orientation="vertical" flexItem />}
-              spacing={1}
-            >
-              
-              <Item>
-              <img
-              src={require('../assets/socials/facebook.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-
-              <Item>
-              <img
-              src={require('../assets/socials/twitter.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-
-              <Item>
-              <img
-              src={require('../assets/socials/instagram.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-
-              <Item>
-              <img
-             src={require('../assets/socials/youtube.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
+          
+          
              
-            </Stack>
 
 
             <h2 style={{ color:'black' }}>WANDIE INNOCENT </h2>
-            <h4 style={{ marginTop:-18,color:'black' }}>Software Engineer / UX Designer </h4>
-            
-            <Typography style={{ marginTop:-18 }}>
-              Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can .
-             
-            </Typography>
+          
+          
 
           </Item>
         </Grid>
-        {/* Column3 */}
-        <Grid item xs={12} sm={3} md={3}>
-        <Item style={{ backgroundColor: '', padding: 6 }}>
-            {/* icon */}
-            <img
-              src={require('../assets/team/wandie.png')}
-              alt="Trees"
-              width="100%"
-              height="70%"
-              style={{ marginTop: 30 }}
-            />
-
-            {/* social icons */}
-            <Stack
-              direction="row"
-              alignItems="center"
-              justifyContent="center"
-              divider={<Divider orientation="vertical" flexItem />}
-              spacing={1}
-            >
-              
-              <Item>
-              <img
-              src={require('../assets/socials/facebook.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-
-              <Item>
-              <img
-              src={require('../assets/socials/twitter.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-
-              <Item>
-              <img
-              src={require('../assets/socials/instagram.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-
-              <Item>
-              <img
-             src={require('../assets/socials/youtube.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-             
-            </Stack>
-
-
-            <h2 style={{ color:'black' }}>WANDIE INNOCENT </h2>
-            <h4 style={{ marginTop:-18,color:'black' }}>Software Engineer / UX Designer </h4>
-            
-            <Typography style={{ marginTop:-18 }}>
-              Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can .
-             
-            </Typography>
-
-          </Item>
-        </Grid>
+       
+       
         {/* right space */}
-        <Grid item xs={12} sm={1.5} md={1.5} >
+        <Grid item xs={12} sm={2} md={2} >
+        <p>ajlaf</p>
         </Grid>
+
+
       </Grid>
       {/* END OF GRID ROW */}
-
-
-
-      {/* GRID ROW */}
-      <Grid
-        container
-        direction="row"
-        spacing={2}
-      // style={{ marginTop:250 }}
-
-      // style={{marginTop:250, position:'relative'}}
-      >
-        {/* left space */}
-        <Grid item xs={12} sm={1.5} md={1.5} >
-        </Grid>
-        {/* Column1 */}
-        <Grid item xs={12} sm={3} md={3} >
-          <Item style={{ backgroundColor: '', padding: 6 }}>
-            {/* icon */}
-            <img
-              src={require('../assets/team/wandie.png')}
-              alt="Trees"
-              width="100%"
-              height="70%"
-              style={{ marginTop: 30 }}
-            />
-
-            {/* social icons */}
-            <Stack
-              direction="row"
-              alignItems="center"
-              justifyContent="center"
-              divider={<Divider orientation="vertical" flexItem />}
-              spacing={1}
-            >
-              
-              <Item>
-              <img
-              src={require('../assets/socials/facebook.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-
-              <Item>
-              <img
-              src={require('../assets/socials/twitter.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-
-              <Item>
-              <img
-              src={require('../assets/socials/instagram.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-
-              <Item>
-              <img
-             src={require('../assets/socials/youtube.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-             
-            </Stack>
-
-
-            <h2 style={{ color:'black' }}>WANDIE INNOCENT </h2>
-            <h4 style={{ marginTop:-18,color:'black' }}>Software Engineer / UX Designer </h4>
-            
-            <Typography style={{ marginTop:-18 }}>
-              Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can .
-             
-            </Typography>
-
-          </Item>
-        </Grid>
-        {/* Column2 */}
-        <Grid item xs={12} sm={3} md={3}>
-        <Item style={{ backgroundColor: '', padding: 6 }}>
-            {/* icon */}
-            <img
-              src={require('../assets/team/wandie.png')}
-              alt="Trees"
-              width="100%"
-              height="70%"
-              style={{ marginTop: 30 }}
-            />
-
-            {/* social icons */}
-            <Stack
-              direction="row"
-              alignItems="center"
-              justifyContent="center"
-              divider={<Divider orientation="vertical" flexItem />}
-              spacing={1}
-            >
-              
-              <Item>
-              <img
-              src={require('../assets/socials/facebook.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-
-              <Item>
-              <img
-              src={require('../assets/socials/twitter.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-
-              <Item>
-              <img
-              src={require('../assets/socials/instagram.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-
-              <Item>
-              <img
-             src={require('../assets/socials/youtube.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-             
-            </Stack>
-
-
-            <h2 style={{ color:'black' }}>WANDIE INNOCENT </h2>
-            <h4 style={{ marginTop:-18,color:'black' }}>Software Engineer / UX Designer </h4>
-            
-            <Typography style={{ marginTop:-18 }}>
-              Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can .
-             
-            </Typography>
-
-          </Item>
-        </Grid>
-        {/* Column3 */}
-        <Grid item xs={12} sm={3} md={3}>
-        <Item style={{ backgroundColor: '', padding: 6 }}>
-            {/* icon */}
-            <img
-              src={require('../assets/team/wandie.png')}
-              alt="Trees"
-              width="100%"
-              height="70%"
-              style={{ marginTop: 30 }}
-            />
-
-            {/* social icons */}
-            <Stack
-              direction="row"
-              alignItems="center"
-              justifyContent="center"
-              divider={<Divider orientation="vertical" flexItem />}
-              spacing={1}
-            >
-              
-              <Item>
-              <img
-              src={require('../assets/socials/facebook.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-
-              <Item>
-              <img
-              src={require('../assets/socials/twitter.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-
-              <Item>
-              <img
-              src={require('../assets/socials/instagram.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-
-              <Item>
-              <img
-             src={require('../assets/socials/youtube.png')}
-              alt="Trees"
-              width="40%"
-              height="40%"
-              // style={{ marginTop: 10 }}
-            />
-              </Item>
-             
-            </Stack>
-
-
-            <h2 style={{ color:'black' }}>WANDIE INNOCENT </h2>
-            <h4 style={{ marginTop:-18,color:'black' }}>Software Engineer / UX Designer </h4>
-            
-            <Typography style={{ marginTop:-18 }}>
-              Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can .
-             
-            </Typography>
-
-          </Item>
-        </Grid>
-        {/* right space */}
-        <Grid item xs={12} sm={1.5} md={1.5} >
-        </Grid>
-      </Grid>
-      {/* END OF GRID ROW */}
-
-
 
 
 
@@ -687,5 +246,76 @@ export default function Gallery() {
 }
 
 
-
-// create the Home stylesheet here
+const itemData = [
+  {
+    img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
+    title: 'Breakfast',
+    author: '@bkristastucchio',
+    rows: 2,
+    cols: 2,
+    featured: true,
+  },
+  {
+    img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
+    title: 'Burger',
+    author: '@rollelflex_graphy726',
+  },
+  {
+    img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
+    title: 'Camera',
+    author: '@helloimnik',
+  },
+  {
+    img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
+    title: 'Coffee',
+    author: '@nolanissac',
+    cols: 2,
+  },
+  {
+    img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
+    title: 'Hats',
+    author: '@hjrc33',
+    cols: 2,
+  },
+  {
+    img: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62',
+    title: 'Honey',
+    author: '@arwinneil',
+    rows: 2,
+    cols: 2,
+    featured: true,
+  },
+  {
+    img: 'https://images.unsplash.com/photo-1516802273409-68526ee1bdd6',
+    title: 'Basketball',
+    author: '@tjdragotta',
+  },
+  {
+    img: 'https://images.unsplash.com/photo-1518756131217-31eb79b20e8f',
+    title: 'Fern',
+    author: '@katie_wasserman',
+  },
+  {
+    img: 'https://images.unsplash.com/photo-1597645587822-e99fa5d45d25',
+    title: 'Mushrooms',
+    author: '@silverdalex',
+    rows: 2,
+    cols: 2,
+  },
+  {
+    img: 'https://images.unsplash.com/photo-1567306301408-9b74779a11af',
+    title: 'Tomato basil',
+    author: '@shelleypauls',
+  },
+  {
+    img: 'https://images.unsplash.com/photo-1471357674240-e1a485acb3e1',
+    title: 'Sea star',
+    author: '@peterlaster',
+  },
+  {
+    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
+    title: 'Bike',
+    author: '@southside_customs',
+    cols: 2,
+  },
+];
