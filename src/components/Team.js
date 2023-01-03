@@ -148,6 +148,58 @@ export default function Team() {
               height="70%"
               style={{ marginTop: 30 }}
             />
+
+            {/* social icons */}
+            <Stack
+              direction="row"
+              alignItems="center"
+              justifyContent="center"
+              divider={<Divider orientation="vertical" flexItem />}
+              spacing={1}
+            >
+              <Item>
+              <img
+              src={require('../assets/values.png')}
+              alt="Trees"
+              width="40%"
+              height="40%"
+              // style={{ marginTop: 10 }}
+            />
+              </Item>
+
+              <Item>
+              <img
+              src={require('../assets/values.png')}
+              alt="Trees"
+              width="40%"
+              height="40%"
+              // style={{ marginTop: 10 }}
+            />
+              </Item>
+
+              <Item>
+              <img
+              src={require('../assets/values.png')}
+              alt="Trees"
+              width="40%"
+              height="40%"
+              // style={{ marginTop: 10 }}
+            />
+              </Item>
+
+              <Item>
+              <img
+              src={require('../assets/values.png')}
+              alt="Trees"
+              width="40%"
+              height="40%"
+              // style={{ marginTop: 10 }}
+            />
+              </Item>
+             
+            </Stack>
+
+
             <h2 style={{ color:'black' }}>WANDIE INNOCENT </h2>
             <h4 style={{ marginTop:-18,color:'black' }}>Software Engineer / UX Designer </h4>
             
@@ -234,6 +286,8 @@ export default function Team() {
               height="70%"
               style={{ marginTop: 30 }}
             />
+            
+
             <h2 style={{ color:'black' }}>WANDIE INNOCENT </h2>
             <h4 style={{ marginTop:-18,color:'black' }}>Software Engineer / UX Designer </h4>
             
@@ -278,6 +332,10 @@ export default function Team() {
               height="70%"
               style={{ marginTop: 30 }}
             />
+
+            {/* social icons */}
+           
+
             <h2 style={{ color:'black' }}>WANDIE INNOCENT </h2>
             <h4 style={{ marginTop:-18,color:'black' }}>Software Engineer / UX Designer </h4>
             
