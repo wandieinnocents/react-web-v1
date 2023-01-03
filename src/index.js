@@ -12,6 +12,7 @@ import NoPage from './components/NoPage';
 import Layout from './components/Layout';
 import About from './components/About';
 import Services from './components/Services';
+import Team from './components/Team';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

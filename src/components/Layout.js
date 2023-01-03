@@ -61,7 +61,7 @@ export default function Layout() {
                         </li>
 
                         <li>
-                          <Link to="/blogs"> TEAM  |</Link>
+                          <Link to="/team"> TEAM  |</Link>
                         </li>
 
                         <li  >

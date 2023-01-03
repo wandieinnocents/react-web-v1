@@ -77,10 +77,10 @@ export default function Team() {
           <Parallax bgImage={image3} blur={{ min: -1, max: 6 }} strength={-100}>
             <div style={{ height: 300 }}>
               <div style={parallaxText} >
-                <h1 style={{ color: 'black', fontSize: 30 }}>SERVICES</h1>
+                <h1 style={{ color: 'black', fontSize: 30 }}>OUR TEAM</h1>
                 <p style={{ color: 'black', fontSize: 20, marginTop: -40 }}>
                  
-                  <br></br>Check Our Services</p>
+                  <br></br>Check out our Team</p>
                
               </div>
             </div>
