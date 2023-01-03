@@ -205,16 +205,21 @@ export default function Team() {
             </Stack>
 
 
-            <h2 style={{ color:'black' }}>WANDIE INNOCENT </h2>
-            <h4 style={{ marginTop:-18,color:'black' }}>Software Engineer / UX Designer </h4>
+            <h2 style={{ color:'black' }}>How to start a career in technology </h2>
+            <h4 style={{ marginTop:-18}}> By : Wandie innocent |  12-10-2023 </h4>
             
-            <Typography style={{ marginTop:-18 }}>
+            <Typography style={{ marginTop:-10 }}>
               Truncation should be conditionally applicable on this long line of text
               as this is a much longer line than what the container can .
              
             </Typography>
 
+            <Button variant="contained" color="success" size="medium" style={{ marginTop:10}}>Read More</Button>
+
+
           </Item>
+
+          
         </Grid>
 
         {/* Column 2 */}
