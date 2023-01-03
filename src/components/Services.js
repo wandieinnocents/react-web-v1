@@ -153,7 +153,7 @@ export default function Services() {
               height="20%"
               style={{ marginTop: 30 }}
             />
-            <h1>MISSION</h1>
+            <h1>WEB DESIGN</h1>
             <Typography >
               Truncation should be conditionally applicable on this long line of text
               as this is a much longer line than what the container can support.
@@ -174,7 +174,7 @@ export default function Services() {
               height="20%"
               style={{ marginTop: 30 }}
             />
-            <h1>VISION</h1>
+            <h1>MOBILE APPS</h1>
             <Typography >
               Truncation should be conditionally applicable on this long line of text
               as this is a much longer line than what the container can support.
@@ -194,7 +194,7 @@ export default function Services() {
               height="20%"
               style={{ marginTop: 30 }}
             />
-            <h1>CORE VALUES</h1>
+            <h1>UX DESIGN</h1>
             <Typography >
               Truncation should be conditionally applicable on this long line of text
               as this is a much longer line than what the container can support.
@@ -234,7 +234,7 @@ export default function Services() {
               height="20%"
               style={{ marginTop: 30 }}
             />
-            <h1>MISSION</h1>
+            <h1>GRAPHICS</h1>
             <Typography >
               Truncation should be conditionally applicable on this long line of text
               as this is a much longer line than what the container can support.
@@ -255,7 +255,7 @@ export default function Services() {
               height="20%"
               style={{ marginTop: 30 }}
             />
-            <h1>VISION</h1>
+            <h1>BRANDING</h1>
             <Typography >
               Truncation should be conditionally applicable on this long line of text
               as this is a much longer line than what the container can support.
@@ -275,7 +275,7 @@ export default function Services() {
               height="20%"
               style={{ marginTop: 30 }}
             />
-            <h1>CORE VALUES</h1>
+            <h1>DEV OPS</h1>
             <Typography >
               Truncation should be conditionally applicable on this long line of text
               as this is a much longer line than what the container can support.
@@ -316,7 +316,7 @@ export default function Services() {
               height="20%"
               style={{ marginTop: 30 }}
             />
-            <h1>MISSION</h1>
+            <h1>AZURE </h1>
             <Typography >
               Truncation should be conditionally applicable on this long line of text
               as this is a much longer line than what the container can support.
@@ -337,7 +337,7 @@ export default function Services() {
               height="20%"
               style={{ marginTop: 30 }}
             />
-            <h1>VISION</h1>
+            <h1>APIS DEV'T</h1>
             <Typography >
               Truncation should be conditionally applicable on this long line of text
               as this is a much longer line than what the container can support.
@@ -357,7 +357,7 @@ export default function Services() {
               height="20%"
               style={{ marginTop: 30 }}
             />
-            <h1>CORE VALUES</h1>
+            <h1>PAYMENTS</h1>
             <Typography >
               Truncation should be conditionally applicable on this long line of text
               as this is a much longer line than what the container can support.

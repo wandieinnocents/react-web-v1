@@ -101,7 +101,7 @@ export default function Home() {
         <Grid item xs={12} sm={1.5} md={1.5} >
         </Grid>
         {/* Column1 */}
-        <Grid item xs={12} sm={4.5} md={4.5} style={{ backgroundColor: '', padding: 6 }} >
+        <Grid item xs={12} sm={4.5} md={4.5} style={{ backgroundColor: '', padding: 20 }} >
 
           {/* icon */}
           <h2 style={{ backgroundColor: '', fontSize: 50, color: 'black', textAlign: 'left', fontFamily: "Playfair Display" }}>
