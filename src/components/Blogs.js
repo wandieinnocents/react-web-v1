@@ -27,7 +27,8 @@ import Divider from '@mui/material/Divider';
 
 // Icons
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
-
+import DeleteIcon from '@mui/icons-material/Delete';
+import SendIcon from '@mui/icons-material/Send';
 
 
 
@@ -150,9 +151,9 @@ export default function Team() {
               style={{ marginTop: 30 }}
             />
 
-            {/* social icons */}
+          
 
-
+            {/* icons */}
             <Stack
               direction="row"
               alignItems="center"
@@ -160,6 +161,7 @@ export default function Team() {
               divider={<Divider orientation="vertical" flexItem />}
               spacing={1}
             >
+            
 
               
               <Item>
@@ -203,9 +205,10 @@ export default function Team() {
               </Item>
              
             </Stack>
+            {/* End of icons */}
 
 
-            
+            {/* Author */}
             <h4 style={{ marginTop:10}}> Author : Wandie | Date:  12-10-2023 </h4>
             <h2 style={{ color:'black' }}>How to start a career in technology today in ug. </h2>
             
@@ -216,10 +219,27 @@ export default function Team() {
              
             </Typography>
 
-            <Button variant="contained" color="success" size="medium" style={{ marginTop:10}}>Read More</Button>
+            {/* button readmore */}
 
+            <Stack 
+            direction="row"
+            alignContent="center"  
+            alignItems="center"
+            justifyContent="center"
+            spacing={2}  
+            >
+              
+              <Button style={{ marginTop:10}} variant="contained"  color="secondary" endIcon={<SendIcon />}>
+                Send
+              </Button>
+            </Stack>
+          
+            
 
           </Item>
+          
+
+
 
           
         </Grid>
@@ -306,6 +326,7 @@ export default function Team() {
 
 
           </Item>
+          
 
           
         </Grid>
