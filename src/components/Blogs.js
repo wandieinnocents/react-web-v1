@@ -322,8 +322,20 @@ export default function Team() {
              
             </Typography>
 
-            <Button variant="contained" color="success" size="medium" style={{ marginTop:10}}>Read More</Button>
+{/* button readmore */}
 
+            <Stack 
+            direction="row"
+            alignContent="center"  
+            alignItems="center"
+            justifyContent="center"
+            spacing={2}  
+            >
+              
+              <Button style={{ marginTop:10}} variant="contained"  color="secondary" endIcon={<SendIcon />}>
+                Send
+              </Button>
+            </Stack>
 
           </Item>
           
