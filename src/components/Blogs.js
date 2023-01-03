@@ -108,7 +108,7 @@ export default function Team() {
 
           {/* icon */}
 
-          <h1>OUR SUPPORT TEAM</h1>
+          <h1>OUR NEWS ARTICLES</h1>
           <Typography >
            We have a support team , that is reliable to handle your queries.
            
