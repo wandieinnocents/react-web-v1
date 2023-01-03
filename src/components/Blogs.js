@@ -664,22 +664,34 @@ export default function Team() {
           <Item style={{ backgroundColor: '', padding: 6 }}>
             {/* icon */}
           
-
-
             <h3 style={{ color:'black' }}>How to start a career in technology  </h3>
-
-
               {/* Author */}
               <h4 style={{ marginTop:10}}>  
               <Chip label="Author" color="primary" size="small" variant="outlined" /> : Wandie   
               <Chip style={{ marginLeft:10 }} label="Post Date" size="small"  color="success" />:  12-10-2023 
               </h4>
+            
+
+
+            
 
             <Typography style={{ marginTop:-10,textAlign:'justify' }}>
               Truncation should be conditionally applicable on this long line of textlong line of textlong ...
               
              
             </Typography>
+            <Stack 
+                      direction="row"
+                      alignContent="center"  
+                      alignItems="center"
+                      justifyContent="center"
+                      spacing={2}  
+                      >
+                        
+                        <Button style={{ marginTop:10 , width:'100%' }} variant="contained"  color="secondary" endIcon={<SendIcon />}>
+                        Read more
+                        </Button>
+                      </Stack>
 
           </Item>
           {/* End of rescnet post article */}
@@ -706,6 +718,18 @@ export default function Team() {
               
              
             </Typography>
+            <Stack 
+                      direction="row"
+                      alignContent="center"  
+                      alignItems="center"
+                      justifyContent="center"
+                      spacing={2}  
+                      >
+                        
+                        <Button style={{ marginTop:10 , width:'100%' }} variant="contained"  color="secondary" endIcon={<SendIcon />}>
+                        Read more
+                        </Button>
+                      </Stack>
 
           </Item>
           {/* End of rescnet post article */}
@@ -734,6 +758,18 @@ export default function Team() {
               
              
             </Typography>
+            <Stack 
+                      direction="row"
+                      alignContent="center"  
+                      alignItems="center"
+                      justifyContent="center"
+                      spacing={2}  
+                      >
+                        
+                        <Button style={{ marginTop:10 , width:'100%' }} variant="contained"  color="secondary" endIcon={<SendIcon />}>
+                        Read more
+                        </Button>
+                      </Stack>
 
           </Item>
           {/* End of rescnet post article */}
@@ -761,6 +797,18 @@ export default function Team() {
               
              
             </Typography>
+            <Stack 
+                      direction="row"
+                      alignContent="center"  
+                      alignItems="center"
+                      justifyContent="center"
+                      spacing={2}  
+                      >
+                        
+                        <Button style={{ marginTop:10 , width:'100%' }} variant="contained"  color="secondary" endIcon={<SendIcon />}>
+                        Read more
+                        </Button>
+                      </Stack>
 
           </Item>
           {/* End of rescnet post article */}
@@ -789,6 +837,7 @@ export default function Team() {
               
              
             </Typography>
+            
 
           </Item>
           {/* End of rescnet post article */}
