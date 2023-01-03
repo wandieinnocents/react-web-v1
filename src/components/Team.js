@@ -144,18 +144,20 @@ export default function Team() {
             <img
               src={require('../assets/team/wandie.png')}
               alt="Trees"
-              width="70%"
+              width="100%"
               height="70%"
               style={{ marginTop: 30 }}
             />
-            <h1>WEB DESIGN</h1>
-            <Typography >
+            <h2 style={{ color:'black' }}>WANDIE INNOCENT </h2>
+            <h4 style={{ marginTop:-18,color:'black' }}>Software Engineer / UX Designer </h4>
+            
+            <Typography style={{ marginTop:-18 }}>
               Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can support.
-              Truncation should be conditionally applicable on this long line of text
+              as this is a much longer line than what the container can .
+             
             </Typography>
 
-            <Button style={{  marginTop: 20,marginBottom:20 }} variant="contained" color="primary" size="medium">READ MORE</Button>
+            {/* <Button style={{  marginTop: 20,marginBottom:20 }} variant="contained" color="primary" size="medium">READ MORE</Button> */}
           </Item>
         </Grid>
         {/* Column2 */}
