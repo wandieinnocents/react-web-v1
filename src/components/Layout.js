@@ -72,7 +72,7 @@ export default function Layout() {
 
 
                         <li  >
-                          <Link to="/"> BLOGS |  </Link>
+                          <Link to="/blogs"> BLOGS |  </Link>
                         </li>
                       
                         <li>
