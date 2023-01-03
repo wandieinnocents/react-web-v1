@@ -105,15 +105,10 @@ export default function Team() {
 
           {/* icon */}
 
-          <h1>WHAT WE DO ?</h1>
+          <h1>OUR SUPPORT TEAM</h1>
           <Typography >
-            Truncation should be conditionally applicable on this long line of text
-            as this is a much longer line than what the container can support.
-            <br></br>
-            Truncation should be conditionals long line of text
-            as this is a much longer line than what the container can support.
-            <br></br>
-            Truncation should be conditionally applicable on this long line of text
+           We have a support team , that is reliable to handle your queries.
+           
           </Typography>
 
         </Grid>
@@ -147,10 +142,10 @@ export default function Team() {
           <Item style={{ backgroundColor: '', padding: 6 }}>
             {/* icon */}
             <img
-              src={require('../assets/mission.png')}
+              src={require('../assets/team/wandie.png')}
               alt="Trees"
-              width="20%"
-              height="20%"
+              width="70%"
+              height="70%"
               style={{ marginTop: 30 }}
             />
             <h1>WEB DESIGN</h1>
@@ -211,166 +206,8 @@ export default function Team() {
 
       
 
-      {/* GRID ROW */}
-      <Grid
-        container
-        direction="row"
-        spacing={2}
-      // style={{ marginTop:250 }}
+      
 
-      // style={{marginTop:250, position:'relative'}}
-      >
-        {/* left space */}
-        <Grid item xs={12} sm={1.5} md={1.5} >
-        </Grid>
-        {/* Column1 */}
-        <Grid item xs={12} sm={3} md={3} >
-          <Item style={{ backgroundColor: '', padding: 6 }}>
-            {/* icon */}
-            <img
-              src={require('../assets/mission.png')}
-              alt="Trees"
-              width="20%"
-              height="20%"
-              style={{ marginTop: 30 }}
-            />
-            <h1>GRAPHICS</h1>
-            <Typography >
-              Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can support.
-              Truncation should be conditionally applicable on this long line of text
-            </Typography>
-
-            <Button style={{  marginTop: 20,marginBottom:20 }} variant="contained" color="primary" size="medium">READ MORE</Button>
-          </Item>
-        </Grid>
-        {/* Column2 */}
-        <Grid item xs={12} sm={3} md={3}>
-          <Item style={{ backgroundColor: '', padding: 6, marginBottom: 10 }}>
-            {/* icon */}
-            <img
-              src={require('../assets/vision.png')}
-              alt="Trees"
-              width="20%"
-              height="20%"
-              style={{ marginTop: 30 }}
-            />
-            <h1>BRANDING</h1>
-            <Typography >
-              Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can support.
-              Truncation should be conditionally applicable on this long line of text
-            </Typography>
-            <Button style={{  marginTop: 20,marginBottom:20 }} variant="contained" color="primary" size="medium">READ MORE</Button>
-          </Item>
-        </Grid>
-        {/* Column3 */}
-        <Grid item xs={12} sm={3} md={3}>
-          <Item style={{ backgroundColor: '', padding: 6, marginBottom: 10 }}>
-            {/* icon */}
-            <img
-              src={require('../assets/values.png')}
-              alt="Trees"
-              width="20%"
-              height="20%"
-              style={{ marginTop: 30 }}
-            />
-            <h1>DEV OPS</h1>
-            <Typography >
-              Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can support.
-              Truncation should be conditionally applicable on this long line of text
-            </Typography>
-            <Button style={{  marginTop: 20,marginBottom:20 }} variant="contained" color="primary" size="medium">READ MORE</Button>
-          </Item>
-        </Grid>
-        {/* right space */}
-        <Grid item xs={12} sm={1.5} md={1.5} >
-        </Grid>
-      </Grid>
-      {/* END OF GRID ROW */}
-
-
-
-
-      {/* GRID ROW */}
-      <Grid
-        container
-        direction="row"
-        spacing={2}
-      // style={{ marginTop:250 }}
-
-      // style={{marginTop:250, position:'relative'}}
-      >
-        {/* left space */}
-        <Grid item xs={12} sm={1.5} md={1.5} >
-        </Grid>
-        {/* Column1 */}
-        <Grid item xs={12} sm={3} md={3} >
-          <Item style={{ backgroundColor: '', padding: 6 }}>
-            {/* icon */}
-            <img
-              src={require('../assets/mission.png')}
-              alt="Trees"
-              width="20%"
-              height="20%"
-              style={{ marginTop: 30 }}
-            />
-            <h1>AZURE </h1>
-            <Typography >
-              Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can support.
-              Truncation should be conditionally applicable on this long line of text
-            </Typography>
-
-            <Button style={{  marginTop: 20,marginBottom:20 }} variant="contained" color="primary" size="medium">READ MORE</Button>
-          </Item>
-        </Grid>
-        {/* Column2 */}
-        <Grid item xs={12} sm={3} md={3}>
-          <Item style={{ backgroundColor: '', padding: 6, marginBottom: 10 }}>
-            {/* icon */}
-            <img
-              src={require('../assets/vision.png')}
-              alt="Trees"
-              width="20%"
-              height="20%"
-              style={{ marginTop: 30 }}
-            />
-            <h1>APIS DEV'T</h1>
-            <Typography >
-              Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can support.
-              Truncation should be conditionally applicable on this long line of text
-            </Typography>
-            <Button style={{  marginTop: 20,marginBottom:20 }} variant="contained" color="primary" size="medium">READ MORE</Button>
-          </Item>
-        </Grid>
-        {/* Column3 */}
-        <Grid item xs={12} sm={3} md={3}>
-          <Item style={{ backgroundColor: '', padding: 6, marginBottom: 10 }}>
-            {/* icon */}
-            <img
-              src={require('../assets/values.png')}
-              alt="Trees"
-              width="20%"
-              height="20%"
-              style={{ marginTop: 30 }}
-            />
-            <h1>PAYMENTS</h1>
-            <Typography >
-              Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can support.
-              Truncation should be conditionally applicable on this long line of text
-            </Typography>
-            <Button style={{  marginTop: 20,marginBottom:20 }} variant="contained" color="primary" size="medium">READ MORE</Button>
-          </Item>
-        </Grid>
-        {/* right space */}
-        <Grid item xs={12} sm={1.5} md={1.5} >
-        </Grid>
-      </Grid>
-      {/* END OF GRID ROW */}
 
 
 
