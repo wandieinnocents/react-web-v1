@@ -80,10 +80,10 @@ export default function Team() {
           <Parallax bgImage={image3} blur={{ min: -1, max: 6 }} strength={-100}>
             <div style={{ height: 300 }}>
               <div style={parallaxText} >
-                <h1 style={{ color: 'black', fontSize: 30 }}>OUR TEAM</h1>
+                <h1 style={{ color: 'black', fontSize: 30 }}>OUR BLOGS</h1>
                 <p style={{ color: 'black', fontSize: 20, marginTop: -40 }}>
                  
-                  <br></br>Check out our Team</p>
+                  <br></br>Check out our BLOGS</p>
                
               </div>
             </div>
@@ -141,7 +141,22 @@ export default function Team() {
         <Grid item xs={12} sm={1} md={1} >
         </Grid>
         {/* Column1 */}
-        <Grid item xs={12} sm={3} md={3} >
+        <Grid item xs={12} sm={7} md={7} >
+
+        
+      {/* GRID ROW */}
+      <Grid
+        container
+        direction="row"
+        spacing={2}
+      // style={{ marginTop:250 }}
+
+      // style={{marginTop:250, position:'relative'}}
+      >
+       
+       
+         {/*  BLOG CONTENT GRID COL 1 */}
+        <Grid item xs={12} sm={6} md={6} >
           <Item style={{ backgroundColor: '', padding: 6 }}>
             {/* icon */}
             <img
@@ -214,6 +229,7 @@ export default function Team() {
             <Chip label="Author" color="primary" size="small" variant="outlined" /> : Wandie   
             <Chip style={{ marginLeft:10 }} label="Post Date" size="small"  color="success" />:  12-10-2023 
             </h4>
+            
            
             <h2 style={{ color:'black' }}>How to start a career in technology today in ug. </h2>
             
@@ -225,6 +241,7 @@ export default function Team() {
             </Typography>
 
             {/* button readmore */}
+            <hr></hr>
 
             <Stack 
             direction="row"
@@ -248,9 +265,10 @@ export default function Team() {
 
           
         </Grid>
+         {/*  END BLOG CONTENT GRID COL 1 */}
 
-        {/* Column 2 */}
-        <Grid item xs={12} sm={3} md={3} >
+       {/*  BLOG CONTENT GRID COL 2 */}
+        <Grid item xs={12} sm={6} md={6} >
           <Item style={{ backgroundColor: '', padding: 6 }}>
             {/* icon */}
             <img
@@ -261,9 +279,9 @@ export default function Team() {
               style={{ marginTop: 30 }}
             />
 
-            {/* social icons */}
+          
 
-
+            {/* icons */}
             <Stack
               direction="row"
               alignItems="center"
@@ -271,6 +289,7 @@ export default function Team() {
               divider={<Divider orientation="vertical" flexItem />}
               spacing={1}
             >
+            
 
               
               <Item>
@@ -314,10 +333,16 @@ export default function Team() {
               </Item>
              
             </Stack>
+            {/* End of icons */}
 
 
+            {/* Author */}
+            <h4 style={{ marginTop:10}}>  
+            <Chip label="Author" color="primary" size="small" variant="outlined" /> : Wandie   
+            <Chip style={{ marginLeft:10 }} label="Post Date" size="small"  color="success" />:  12-10-2023 
+            </h4>
             
-            <h4 style={{ marginTop:10}}> Author : Wandie | Date:  12-10-2023 </h4>
+           
             <h2 style={{ color:'black' }}>How to start a career in technology today in ug. </h2>
             
             <Typography style={{ marginTop:-10,textAlign:'justify' }}>
@@ -327,7 +352,8 @@ export default function Team() {
              
             </Typography>
 
-{/* button readmore */}
+            {/* button readmore */}
+            <hr></hr>
 
             <Stack 
             direction="row"
@@ -338,27 +364,32 @@ export default function Team() {
             >
               
               <Button style={{ marginTop:10}} variant="contained"  color="secondary" endIcon={<SendIcon />}>
-                Read more
+              Read more
               </Button>
             </Stack>
+          
+            
 
           </Item>
           
 
+
+
           
         </Grid>
+         {/* END BLOG CONTENT GRID COL 2 */}
 
+      </Grid>
+      
 
+        </Grid>
 
+      
 
-
-
-
-
-
-        {/* Column 3 */}
+        
+        {/* Column 2 */}
         {/* SIDEBAR */}
-        <Grid item xs={12} sm={4} md={4}>
+        <Grid item xs={12} sm={3} md={3}>
         <Item style={{ backgroundColor: '', padding: 6 }}>
             {/* icon */}
             <img
