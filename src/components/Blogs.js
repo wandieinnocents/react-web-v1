@@ -33,7 +33,7 @@ import SendIcon from '@mui/icons-material/Send';
 
 
 
-
+// Styling Items (<Item />)
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
@@ -230,7 +230,7 @@ export default function Team() {
             >
               
               <Button style={{ marginTop:10}} variant="contained"  color="secondary" endIcon={<SendIcon />}>
-                Send
+              Read more
               </Button>
             </Stack>
           
@@ -333,7 +333,7 @@ export default function Team() {
             >
               
               <Button style={{ marginTop:10}} variant="contained"  color="secondary" endIcon={<SendIcon />}>
-                Send
+                Read more
               </Button>
             </Stack>
 
