@@ -56,6 +56,11 @@ export default function Layout() {
                         <li>
                           <Link to="/about"> ABOUT  |  </Link>
                         </li>
+
+                        <li>
+                          <Link to="/gallery"> GALLERY  |  </Link>
+                        </li>
+
                         <li>
                           <Link to="/services"> SERVICES | </Link>
                         </li>

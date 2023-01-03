@@ -13,6 +13,7 @@ import Layout from './components/Layout';
 import About from './components/About';
 import Services from './components/Services';
 import Team from './components/Team';
+import Gallery from './components/Gallery';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -32,6 +33,7 @@ root.render(
           <Route path="blogs" element={<Blogs />} />
           <Route path="contact" element={<Contact />} />
           <Route path="team" element={<Team />} />
+          <Route path="gallery" element={<Gallery />} />
           <Route path="*" element={<NoPage />} />
         </Route>
   </Routes>
