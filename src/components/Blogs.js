@@ -24,6 +24,7 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Divider from '@mui/material/Divider';
+import Chip from '@mui/material/Chip';
 
 // Icons
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
@@ -209,7 +210,11 @@ export default function Team() {
 
 
             {/* Author */}
-            <h4 style={{ marginTop:10}}> Author : Wandie | Date:  12-10-2023 </h4>
+            <h4 style={{ marginTop:10}}>  
+            <Chip label="Author" color="primary" size="small" variant="outlined" /> : Wandie   
+            <Chip style={{ marginLeft:10 }} label="Post Date" size="small"  color="success" />:  12-10-2023 
+            </h4>
+           
             <h2 style={{ color:'black' }}>How to start a career in technology today in ug. </h2>
             
             <Typography style={{ marginTop:-10,textAlign:'justify' }}>
