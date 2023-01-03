@@ -208,7 +208,7 @@ export default function Contact() {
               height="20%"
               style={{ marginTop: 30 }}
             />
-            <h1>MISSION</h1>
+            <h1>CONTACT</h1>
             <Typography >
               Truncation should be conditionally applicable on this long line of text
               as this is a much longer line than what the container can support.
@@ -227,7 +227,7 @@ export default function Contact() {
               height="20%"
               style={{ marginTop: 30 }}
             />
-            <h1>VISION</h1>
+            <h1>EMAIL</h1>
             <Typography >
               Truncation should be conditionally applicable on this long line of text
               as this is a much longer line than what the container can support.
@@ -246,7 +246,7 @@ export default function Contact() {
               height="20%"
               style={{ marginTop: 30 }}
             />
-            <h1>CORE VALUES</h1>
+            <h1>ADDRESS</h1>
             <Typography >
               Truncation should be conditionally applicable on this long line of text
               as this is a much longer line than what the container can support.
