@@ -37,7 +37,9 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 
 // Icons
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
-
+import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import SendIcon from '@mui/icons-material/Send';
 
 
 
@@ -186,7 +188,7 @@ export default function Products() {
             <MoreVertIcon />
           </IconButton>
         }
-        title="Swade sneekers"
+        title="HP Laptop Ryzen"
         subheader="September 14, 2023"
       />
       <CardMedia
@@ -205,33 +207,34 @@ export default function Products() {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
+      <IconButton aria-label="share">
+          <AddShoppingCartIcon />
+        </IconButton>
         <IconButton aria-label="add to favorites">
           <FavoriteIcon />
         </IconButton>
-        <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton>
+       
         <ExpandMore
-          expand={expanded}
+          // expand={expanded}
           onClick={handleExpandClick}
-          aria-expanded={expanded}
+          // aria-expanded={expanded}
           aria-label="show more"
         >
-          <ExpandMoreIcon />
+        <Stack 
+        direction="row"
+        alignContent="center"  
+        alignItems="center"
+        justifyContent="center"
+        spacing={2}  
+        >
+          
+          <Button style={{ marginTop:10 , width:'100%' }} variant="contained"  color="secondary" endIcon={<ArrowForwardIcon />}>
+         VIEW DETAIS
+          </Button>
+        </Stack>
         </ExpandMore>
       </CardActions>
-      <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <CardContent>
-          <Typography paragraph>Method:</Typography>
-          <Typography paragraph>
-            Heat 1/2 cup of the broth in a pot until simmering, add saffron and set
-            aside for 10 minutes.
-          </Typography>
-          
-          
-          
-        </CardContent>
-      </Collapse>
+    
     </Card>
         </Grid>
         {/* Column2 */}
