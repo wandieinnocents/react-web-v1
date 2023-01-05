@@ -177,95 +177,191 @@ export default function Products() {
         {/* Column1 */}
         <Grid item xs={12} sm={3} md={3} >
         <Card sx={{ maxWidth: 345 }}>
-      <CardHeader
-        avatar={
-          <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-            W
-          </Avatar>
-        }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
-        title="HP Laptop Ryzen"
-        subheader="September 14, 2023"
-      />
-      <CardMedia
-        component="img"
-        height="194"
-        image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwk1SGyLpxwAfc4cBCNhB4adl_Qk3VaolaAQ&usqp=CAU"
-        alt="Paella dish"
-      />
-      <CardContent>
-       <h2 style={{ textAlign:'center',alignItems:'center' }}>UGX : 250,000</h2>
-       <h2 style={{ textAlign:'center',alignItems:'center',marginTop:-15,color:'red' }}> <s> UGX 5000,000 </s></h2>
-        <Typography variant="body2" color="text.secondary" >
-          This impressive paella is a perfect party dish and a fun meal to cook
-          together with your guests. Add 1 cup of frozen peas along with the mussels,
-          if you like.
-        </Typography>
-      </CardContent>
-      <CardActions disableSpacing>
-      <IconButton aria-label="share">
-          <AddShoppingCartIcon />
-        </IconButton>
-        <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
-        </IconButton>
-       
-        <ExpandMore
-          // expand={expanded}
-          onClick={handleExpandClick}
-          // aria-expanded={expanded}
-          aria-label="show more"
-        >
-        <Stack 
-        direction="row"
-        alignContent="center"  
-        alignItems="center"
-        justifyContent="center"
-        spacing={2}  
-        >
+          <CardHeader
+            avatar={
+              <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
+                W
+              </Avatar>
+            }
+            action={
+              <IconButton aria-label="settings">
+                <MoreVertIcon />
+              </IconButton>
+            }
+            title="HP Laptop Ryzen"
+            subheader="September 14, 2023"
+          />
+          <CardMedia
+            component="img"
+            height="194"
+            image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwk1SGyLpxwAfc4cBCNhB4adl_Qk3VaolaAQ&usqp=CAU"
+            alt="Paella dish"
+          />
+          <CardContent>
+          <h2 style={{ textAlign:'center',alignItems:'center' }}>UGX : 250,000</h2>
+          <h2 style={{ textAlign:'center',alignItems:'center',marginTop:-15,color:'red' }}> <s> UGX 5000,000 </s></h2>
+            <Typography variant="body2" color="text.secondary" >
+              This impressive paella is a perfect party dish and a fun meal to cook
+              together with your guests. Add 1 cup of frozen peas along with the mussels,
+              if you like.
+            </Typography>
+          </CardContent>
+          <CardActions disableSpacing>
+          <IconButton aria-label="share">
+              <AddShoppingCartIcon />
+            </IconButton>
+            <IconButton aria-label="add to favorites">
+              <FavoriteIcon />
+            </IconButton>
           
-          <Button style={{ marginTop:10 , width:'100%' }} variant="contained"  color="secondary" endIcon={<ArrowForwardIcon />}>
-         VIEW DETAIS
-          </Button>
-        </Stack>
-        </ExpandMore>
-      </CardActions>
-    
-    </Card>
+            <ExpandMore
+              // expand={expanded}
+              onClick={handleExpandClick}
+              // aria-expanded={expanded}
+              aria-label="show more"
+            >
+            <Stack 
+            direction="row"
+            alignContent="center"  
+            alignItems="center"
+            justifyContent="center"
+            spacing={2}  
+            >
+              
+              <Button style={{ marginTop:10 , width:'100%' }} variant="contained"  color="secondary" endIcon={<ArrowForwardIcon />}>
+            VIEW DETAIS
+              </Button>
+            </Stack>
+            </ExpandMore>
+          </CardActions>
+        
+        </Card>
         </Grid>
         {/* Column2 */}
         <Grid item xs={12} sm={3} md={3}>
-          <Item style={{ backgroundColor: '', padding: 6, marginBottom: 10 }}>
-            {/* icon */}
-            <img
-              src={require('../assets/vision.png')}
-              alt="Trees"
-              width="20%"
-              height="20%"
-              style={{ marginTop: 30 }}
-            />
-            <h1>MOBILE APPS</h1>
-            
-          </Item>
+        <Card sx={{ maxWidth: 345 }}>
+          <CardHeader
+            avatar={
+              <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
+                W
+              </Avatar>
+            }
+            action={
+              <IconButton aria-label="settings">
+                <MoreVertIcon />
+              </IconButton>
+            }
+            title="HP Laptop Ryzen"
+            subheader="September 14, 2023"
+          />
+          <CardMedia
+            component="img"
+            height="194"
+            image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwk1SGyLpxwAfc4cBCNhB4adl_Qk3VaolaAQ&usqp=CAU"
+            alt="Paella dish"
+          />
+          <CardContent>
+          <h2 style={{ textAlign:'center',alignItems:'center' }}>UGX : 250,000</h2>
+          <h2 style={{ textAlign:'center',alignItems:'center',marginTop:-15,color:'red' }}> <s> UGX 5000,000 </s></h2>
+            <Typography variant="body2" color="text.secondary" >
+              This impressive paella is a perfect party dish and a fun meal to cook
+              together with your guests. Add 1 cup of frozen peas along with the mussels,
+              if you like.
+            </Typography>
+          </CardContent>
+          <CardActions disableSpacing>
+          <IconButton aria-label="share">
+              <AddShoppingCartIcon />
+            </IconButton>
+            <IconButton aria-label="add to favorites">
+              <FavoriteIcon />
+            </IconButton>
+          
+            <ExpandMore
+              // expand={expanded}
+              onClick={handleExpandClick}
+              // aria-expanded={expanded}
+              aria-label="show more"
+            >
+            <Stack 
+            direction="row"
+            alignContent="center"  
+            alignItems="center"
+            justifyContent="center"
+            spacing={2}  
+            >
+              
+              <Button style={{ marginTop:10 , width:'100%' }} variant="contained"  color="secondary" endIcon={<ArrowForwardIcon />}>
+            VIEW DETAIS
+              </Button>
+            </Stack>
+            </ExpandMore>
+          </CardActions>
+        
+        </Card>
         </Grid>
         {/* Column3 */}
         <Grid item xs={12} sm={3} md={3}>
-          <Item style={{ backgroundColor: '', padding: 6, marginBottom: 10 }}>
-            {/* icon */}
-            <img
-              src={require('../assets/values.png')}
-              alt="Trees"
-              width="20%"
-              height="20%"
-              style={{ marginTop: 30 }}
-            />
-            <h1>UX DESIGN</h1>
-           
-          </Item>
+        <Card sx={{ maxWidth: 345 }}>
+          <CardHeader
+            avatar={
+              <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
+                W
+              </Avatar>
+            }
+            action={
+              <IconButton aria-label="settings">
+                <MoreVertIcon />
+              </IconButton>
+            }
+            title="HP Laptop Ryzen"
+            subheader="September 14, 2023"
+          />
+          <CardMedia
+            component="img"
+            height="194"
+            image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwk1SGyLpxwAfc4cBCNhB4adl_Qk3VaolaAQ&usqp=CAU"
+            alt="Paella dish"
+          />
+          <CardContent>
+          <h2 style={{ textAlign:'center',alignItems:'center' }}>UGX : 250,000</h2>
+          <h2 style={{ textAlign:'center',alignItems:'center',marginTop:-15,color:'red' }}> <s> UGX 5000,000 </s></h2>
+            <Typography variant="body2" color="text.secondary" >
+              This impressive paella is a perfect party dish and a fun meal to cook
+              together with your guests. Add 1 cup of frozen peas along with the mussels,
+              if you like.
+            </Typography>
+          </CardContent>
+          <CardActions disableSpacing>
+          <IconButton aria-label="share">
+              <AddShoppingCartIcon />
+            </IconButton>
+            <IconButton aria-label="add to favorites">
+              <FavoriteIcon />
+            </IconButton>
+          
+            <ExpandMore
+              // expand={expanded}
+              onClick={handleExpandClick}
+              // aria-expanded={expanded}
+              aria-label="show more"
+            >
+            <Stack 
+            direction="row"
+            alignContent="center"  
+            alignItems="center"
+            justifyContent="center"
+            spacing={2}  
+            >
+              
+              <Button style={{ marginTop:10 , width:'100%' }} variant="contained"  color="secondary" endIcon={<ArrowForwardIcon />}>
+            VIEW DETAIS
+              </Button>
+            </Stack>
+            </ExpandMore>
+          </CardActions>
+        
+        </Card>
         </Grid>
         {/* right space */}
         <Grid item xs={12} sm={1.5} md={1.5} >
