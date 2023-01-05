@@ -117,10 +117,10 @@ export default function Contact() {
 
             <form noValidate autoComplete="off">
 
-            {/* firstname */}
+            {/* fullname */}
             <TextField 
             id="outlined-basic" 
-            label="First Name" 
+            label="Full Name" 
             variant="outlined"
             color="secondary"
             fullWidth
@@ -128,16 +128,7 @@ export default function Contact() {
             style={{  marginTop:20,marginBottom:20,display:'block'  }}
             />
 
-             {/* lastname */}
-             <TextField 
-            id="outlined-basic" 
-            label="Last Name" 
-            variant="outlined"
-            color="secondary"
-            fullWidth
-            required
-            style={{  marginTop:20,marginBottom:20,display:'block'  }}
-            />
+           
 
             {/* email */}
             <TextField 
