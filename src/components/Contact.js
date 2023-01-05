@@ -153,7 +153,7 @@ export default function Contact() {
              {/* subject */}
              <TextField 
             id="outlined-basic" 
-            label="Email" 
+            label="Subject" 
             variant="outlined"
             color="secondary"
             fullWidth
@@ -169,7 +169,7 @@ export default function Contact() {
             variant="outlined"
             color="secondary"
             multiline
-              rows={8}
+              rows={6}
             fullWidth
             required
             style={{  marginTop:20, marginBottom:20,display:'block' }}
@@ -180,9 +180,6 @@ export default function Contact() {
          
             
             </form>
-
-
-            {/* second form */}
 
 
         </Grid>
