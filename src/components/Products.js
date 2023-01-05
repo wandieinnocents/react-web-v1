@@ -178,7 +178,7 @@ export default function Products() {
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-            R
+            W
           </Avatar>
         }
         action={
@@ -186,8 +186,8 @@ export default function Products() {
             <MoreVertIcon />
           </IconButton>
         }
-        title="Shrimp and Chorizo Paella"
-        subheader="September 14, 2016"
+        title="Swade sneekers"
+        subheader="September 14, 2023"
       />
       <CardMedia
         component="img"
@@ -196,6 +196,8 @@ export default function Products() {
         alt="Paella dish"
       />
       <CardContent>
+       <h2 style={{ textAlign:'center',alignItems:'center' }}>UGX : 250,000</h2>
+       <h2 style={{ textAlign:'center',alignItems:'center',marginTop:-15 }}> <s>5000,000 - 250,000</s></h2>
         <Typography variant="body2" color="text.secondary">
           This impressive paella is a perfect party dish and a fun meal to cook
           together with your guests. Add 1 cup of frozen peas along with the mussels,
