@@ -89,8 +89,35 @@ const [feedbackError, setFeebackError] = useState(false);
 
 //  handle subnmit
 const handleSubmit = (e) => {
+  // prevent from submitting empty field
   e.preventDefault()
 
+  // set error states
+  setFullNameError(false)
+  setEmailError(false)
+  setSubjectError(false)
+  setPhoneError(false)
+  setFeebackError(false)
+
+  // check if error exists
+  if(fullname == ''){
+    setFullNameError(true)
+  }
+  if(email == ''){
+    setEmailError(true)
+  }
+  if(subject == ''){
+    setSubjectError(true)
+  }
+  if(phone == ''){
+    setPhoneError(true)
+  }
+  if(feedback == ''){
+    setFeebackError(true)
+  }
+
+
+  // if data has been inserted
   if(fullname && email && subject && phone && feedback ){
     console.log(fullname,email,subject,phone,feedback);
   }
@@ -274,6 +301,7 @@ const handleSubmit = (e) => {
             color="secondary"
             fullWidth
             required
+            error={fullnameError}
             style={{  marginTop:20,marginBottom:20,display:'block'  }}
             />
 
@@ -288,6 +316,7 @@ const handleSubmit = (e) => {
             color="secondary"
             fullWidth
             required
+            error={emailError}
             style={{  marginTop:20,marginBottom:20,display:'block'  }}
             />
 
@@ -300,6 +329,7 @@ const handleSubmit = (e) => {
             color="secondary"
             fullWidth
             required
+            error={phoneError}
             style={{  marginTop:20,marginBottom:20,display:'block'  }}
             />
 
@@ -312,6 +342,7 @@ const handleSubmit = (e) => {
             color="secondary"
             fullWidth
             required
+            error={subjectError}
             style={{  marginTop:20,marginBottom:20,display:'block'  }}
             />
 
@@ -327,6 +358,7 @@ const handleSubmit = (e) => {
               rows={6}
             fullWidth
             required
+            error={feedbackError}
             style={{  marginTop:20, marginBottom:20,display:'block' }}
             />
 
