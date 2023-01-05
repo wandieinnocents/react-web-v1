@@ -109,20 +109,22 @@ export default function Contact() {
           <h2 style={{ backgroundColor: '', fontSize: 50, color: 'black', textAlign: 'left', fontFamily: "Playfair Display" }}>
             LEAVE A MESSAGE ! </h2>
 
-            <Box
-            component="form"
-            sx={{
-              '& > :not(style)': { m: 2, width: '20ch' },
-            }}
-            noValidate
-            autoComplete="off"
-          >
-            <TextField id="outlined-basic" label="First Name" variant="outlined" />
-            <TextField id="outlined-basic" label="Last Name" variant="outlined" />
-            <TextField id="outlined-basic" label="Email" variant="outlined" />
-            <TextField id="outlined-basic" label="Subject" variant="outlined" />
-          </Box>
-        
+
+
+            {/* first form */}
+
+            <form noValidate autoComplete="off">
+            <TextField 
+            id="outlined-basic" 
+            label="First Name" 
+            variant="outlined"
+            />
+            
+            </form>
+
+
+            {/* second form */}
+
 
         </Grid>
         {/* Column2 */}
