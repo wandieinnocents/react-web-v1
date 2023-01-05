@@ -251,6 +251,7 @@ export default function Contact() {
 
             {/* fullname */}
             <TextField 
+            onChange={ (e) => setFullName(e.target.value) }
             id="outlined-basic" 
             label="Full Name" 
             variant="outlined"
@@ -264,6 +265,7 @@ export default function Contact() {
 
             {/* email */}
             <TextField 
+            onChange={ (e) => setEmail(e.target.value) }
             id="outlined-basic" 
             label="Email" 
             variant="outlined"
@@ -273,8 +275,21 @@ export default function Contact() {
             style={{  marginTop:20,marginBottom:20,display:'block'  }}
             />
 
+             {/* phone */}
+             <TextField 
+             onChange={ (e) => setPhone(e.target.value) }
+            id="outlined-basic" 
+            label="Phone" 
+            variant="outlined"
+            color="secondary"
+            fullWidth
+            required
+            style={{  marginTop:20,marginBottom:20,display:'block'  }}
+            />
+
              {/* subject */}
              <TextField 
+             onChange={ (e) => setSubject(e.target.value) }
             id="outlined-basic" 
             label="Subject" 
             variant="outlined"
@@ -287,6 +302,7 @@ export default function Contact() {
             {/* message */}
 
             <TextField 
+            onChange={ (e) => setFeeback(e.target.value) }
             id="outlined-multiline-static" 
             label="Message" 
             variant="outlined"
