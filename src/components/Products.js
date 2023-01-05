@@ -192,12 +192,12 @@ export default function Products() {
       <CardMedia
         component="img"
         height="194"
-        image="https://abdelghafour122.github.io/ecommerce-product-page/static/media/image-product-1.520cc50bd13955f55cb2.jpg"
+        image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwk1SGyLpxwAfc4cBCNhB4adl_Qk3VaolaAQ&usqp=CAU"
         alt="Paella dish"
       />
       <CardContent>
        <h2 style={{ textAlign:'center',alignItems:'center' }}>UGX : 250,000</h2>
-       <h2 style={{ textAlign:'center',alignItems:'center',marginTop:-15 }}> <s>5000,000 - 250,000</s></h2>
+       <h2 style={{ textAlign:'center',alignItems:'center',marginTop:-15,color:'red' }}> <s>5000,000 - 250,000</s></h2>
         <Typography variant="body2" color="text.secondary">
           This impressive paella is a perfect party dish and a fun meal to cook
           together with your guests. Add 1 cup of frozen peas along with the mussels,
