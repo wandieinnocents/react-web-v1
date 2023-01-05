@@ -74,7 +74,7 @@ const image1 =
 const image2 =
   "https://img00.deviantart.net/2bd0/i/2009/276/c/9/magic_forrest_wallpaper_by_goergen.jpg";
 const image3 =
-  "https://brightcove04pmdo-a.akamaihd.net/5104226627001/5104226627001_5297440765001_5280261645001-vs.jpg?pubId=5104226627001&videoId=5280261645001";
+  "https://cdn.searchenginejournal.com/wp-content/uploads/2022/08/google-shopping-ads-6304dccb7a49e-sej.png";
 const image4 =
   "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/empire-state-building-black-and-white-square-format-john-farnan.jpg";
 const parallaxText = {
@@ -110,8 +110,8 @@ export default function Products() {
       >
         {/* banner section */}
         <Grid item xs={12} sm={12} md={12} style={{ backgroundColor: '', marginBottom: 10 }} >
-          <Parallax bgImage={image3} blur={{ min: -1, max: 6 }} strength={-100}>
-            <div style={{ height: 300 }}>
+          <Parallax bgImage={image3} blur={{ min: -1, max: 3 }} strength={-100}>
+            <div style={{ height: 400 }}>
               <div style={parallaxText} >
                 <h1 style={{ color: 'black', fontSize: 30 }}>PRODUCTS</h1>
                 <p style={{ color: 'black', fontSize: 20, marginTop: -40 }}>
