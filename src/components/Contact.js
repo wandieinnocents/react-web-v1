@@ -34,6 +34,8 @@ import TextField from '@mui/material/TextField';
 
 
 
+
+
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
@@ -118,7 +120,29 @@ export default function Contact() {
             id="outlined-basic" 
             label="First Name" 
             variant="outlined"
+            color="secondary"
+            fullWidth
+            required
+            style={{  marginTop:20,
+                      marginBottom:20,
+                      display:'block' 
+                  }}
             />
+
+<TextField 
+            id="outlined-basic" 
+            label="First Name" 
+            variant="outlined"
+            color="secondary"
+            fullWidth
+            required
+            style={{  marginTop:20,
+                      marginBottom:20,
+                      display:'block' 
+                  }}
+            />
+
+         
             
             </form>
 
@@ -337,3 +361,4 @@ export default function Contact() {
 
 
 // create the Home stylesheet here
+
