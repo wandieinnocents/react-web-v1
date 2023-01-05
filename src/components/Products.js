@@ -257,7 +257,7 @@ export default function Products() {
           <CardMedia
             component="img"
             height="194"
-            image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwk1SGyLpxwAfc4cBCNhB4adl_Qk3VaolaAQ&usqp=CAU"
+            image="https://i.insider.com/6336ef5694aa2f0018cfbc4d?width=1000&format=jpeg&auto=webp"
             alt="Paella dish"
           />
           <CardContent>
@@ -320,7 +320,7 @@ export default function Products() {
           <CardMedia
             component="img"
             height="194"
-            image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwk1SGyLpxwAfc4cBCNhB4adl_Qk3VaolaAQ&usqp=CAU"
+            image="https://cdn.shopify.com/s/files/1/0419/1525/products/T-1024x1024-Men-Captain-Arizona-LB1.jpg?v=1569061198"
             alt="Paella dish"
           />
           <CardContent>
