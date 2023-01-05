@@ -129,11 +129,18 @@ export default function Contact() {
                   }}
             />
 
-<TextField 
-            id="outlined-basic" 
-            label="First Name" 
+            <TextField 
+
+
+             
+          
+             
+            id="outlined-multiline-static" 
+            label="Message" 
             variant="outlined"
             color="secondary"
+            multiline
+              rows={8}
             fullWidth
             required
             style={{  marginTop:20,
