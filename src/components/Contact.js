@@ -11,6 +11,7 @@ import { Parallax, Background } from "react-parallax";
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import BackgroundSlideshow from 'react-background-slideshow'
+import SendIcon from '@mui/icons-material/Send';
 
 
 import image5 from '../assets/nature.jpeg'
@@ -79,6 +80,21 @@ export default function Contact() {
  const [phone, setPhone] = useState('');
  const [feedback, setFeeback] = useState('');
 
+//  error states
+const [fullnameError, setFullNameError] = useState(false);
+const [emailError, setEmailError] = useState(false);
+const [subjectError, setSubjectError] = useState(false);
+const [phoneError, setPhoneError] = useState('');
+const [feedbackError, setFeebackError] = useState(false);
+
+//  handle subnmit
+const handleSubmit = (e) => {
+  e.preventDefault()
+
+  if(fullname && email && subject && phone && feedback ){
+    console.log(fullname,email,subject,phone,feedback);
+  }
+}
 
 
 
@@ -247,7 +263,7 @@ export default function Contact() {
 
             {/* first form */}
 
-            <form noValidate autoComplete="off">
+            <form noValidate autoComplete="off"  >
 
             {/* fullname */}
             <TextField 
@@ -314,12 +330,37 @@ export default function Contact() {
             style={{  marginTop:20, marginBottom:20,display:'block' }}
             />
 
+             {/* button */}
+             <Stack 
+              direction="row"
+              alignContent="center"  
+              alignItems="center"
+              justifyContent="center"
+              spacing={2}  
+              >
+                
+                <Button 
+                onClick={handleSubmit}
+                // onClick = { () => console.log("bUTTON CLICKED")}
+                style={{ marginTop:10 , width:'100%' }} 
+                variant="contained"  
+                color="secondary" 
+                endIcon={<SendIcon />}>
+                Submit
+                </Button>
+              </Stack>
+
+
+
+           
+
             
 
          
             
             </form>
 
+            
 
         </Grid>
         {/* Column2 */}
