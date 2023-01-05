@@ -26,6 +26,8 @@ import Divider from '@mui/material/Divider';
 
 // Icons
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+// inputs
+import TextField from '@mui/material/TextField';
 
 
 
@@ -105,25 +107,22 @@ export default function Contact() {
 
           {/* icon */}
           <h2 style={{ backgroundColor: '', fontSize: 50, color: 'black', textAlign: 'left', fontFamily: "Playfair Display" }}>
-            Our Background Story</h2>
-          <p style={{ backgroundColor: '', textAlign: 'justify', padding:10 }}>
-            Since 1991, Multiple Industries Limited has been leading the way in the
-            manufacturing and trading of Domestic and Industrial Building Materials in Uganda.
-            <br></br><br></br>
-            Right from reinforcing bars to concrete products, from indoor plumbing to outdoor plumbing, from rainwater gutters to strong dependable plastic pipes, Multiple Industries is in the business of producing a multiplicity
-            of building materials that add value to the lives of our customers.
-            <br></br><br></br>
-            Multiple Industries is committed to ensure that quality and
-            services are maintained in all aspects of its operations.
-            <br></br><br></br>
-            Multiple Industries is committed to ensure that quality and
-            services are maintained in all aspects of its operations.
-            Multiple Industries is committed to ensure that quality and
-            services are maintained in all aspects of its operations.
-            Multiple Industries is committed to ensure that quality and
-            services are maintained in all aspects of its operations.
-          </p>
+            LEAVE A MESSAGE ! </h2>
 
+            <Box
+            component="form"
+            sx={{
+              '& > :not(style)': { m: 1, width: '15ch' },
+            }}
+            noValidate
+            autoComplete="off"
+          >
+            <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+            <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+            <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+            <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+          </Box>
+        
 
         </Grid>
         {/* Column2 */}
@@ -270,19 +269,7 @@ export default function Contact() {
       >
         {/* banner section */}
         <Grid item xs={12} sm={12} md={12} style={{ backgroundColor: '', marginBottom: 10 }} >
-          <Parallax bgImage={image3} blur={{ min: -1, max: 8 }}>
-            <div style={{ height: 500 }}>
-              <div style={parallaxText} >
-                <h1 style={{ color: 'black' }}>LOOKING FOR BETTER SOLUTIONS TO PLASTICS ?</h1>
-                <p style={{ color: 'black', marginTop: -10 }}>We have a team ofruWe have a team of resilient designers to take u thruWe have
-                  a team of resilient designers to take u thru</p>
-                <p style={{ color: 'black', marginTop: -10 }}>We have a team ofruWe have a team of resilient designers to take u thruWe have </p>
-                {/* button */}
-                <Button variant="contained" color="primary" size="large">JOIN TODAY</Button>
-                <Button variant="contained" color="success" size="large" style={{ marginLeft: 20 }}>TALK TO US</Button>
-              </div>
-            </div>
-          </Parallax>
+        <h1 style={{ color: 'black' }}>GOOGLE MAPS SECTION</h1>
         </Grid>
       </Grid>
 
