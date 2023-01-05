@@ -1,4 +1,6 @@
-import * as React from 'react';
+import React, { useEffect, useState } from 'react';
+
+
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
@@ -64,7 +66,26 @@ const parallaxText = {
   transform: "translate(-50%,-50%)"
 };
 // end of parallax
+
+
+
+
+
 export default function Contact() {
+  // states
+ const [fullname, setFullName] = useState('');
+ const [email, setEmail] = useState('');
+ const [subject, setSubject] = useState('');
+ const [phone, setPhone] = useState('');
+ const [feedback, setFeeback] = useState('');
+
+
+
+
+
+
+
+
   return (
 
     // General Box Layout
