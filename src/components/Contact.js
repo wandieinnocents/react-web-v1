@@ -145,7 +145,7 @@ export default function Contact() {
           <Item style={{ backgroundColor: '', padding: 6 }}>
             {/* icon */}
             <img
-              src={require('../assets/mission.png')}
+              src={require('../assets/contact/phone-call.png')}
               alt="Trees"
               width="20%"
               height="20%"
@@ -163,7 +163,7 @@ export default function Contact() {
           <Item style={{ backgroundColor: '', padding: 6, marginBottom: 10 }}>
             {/* icon */}
             <img
-              src={require('../assets/vision.png')}
+              src={require('../assets/contact/gmail.png')}
               alt="Trees"
               width="20%"
               height="20%"
@@ -180,7 +180,7 @@ export default function Contact() {
           <Item style={{ backgroundColor: '', padding: 6, marginBottom: 10 }}>
             {/* icon */}
             <img
-              src={require('../assets/values.png')}
+              src={require('../assets/contact/location.png')}
               alt="Trees"
               width="20%"
               height="20%"
