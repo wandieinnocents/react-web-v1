@@ -112,15 +112,15 @@ export default function Contact() {
             <Box
             component="form"
             sx={{
-              '& > :not(style)': { m: 1, width: '15ch' },
+              '& > :not(style)': { m: 2, width: '20ch' },
             }}
             noValidate
             autoComplete="off"
           >
-            <TextField id="outlined-basic" label="Outlined" variant="outlined" />
-            <TextField id="outlined-basic" label="Outlined" variant="outlined" />
-            <TextField id="outlined-basic" label="Outlined" variant="outlined" />
-            <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+            <TextField id="outlined-basic" label="First Name" variant="outlined" />
+            <TextField id="outlined-basic" label="Last Name" variant="outlined" />
+            <TextField id="outlined-basic" label="Email" variant="outlined" />
+            <TextField id="outlined-basic" label="Subject" variant="outlined" />
           </Box>
         
 
