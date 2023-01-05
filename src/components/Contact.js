@@ -116,6 +116,8 @@ export default function Contact() {
             {/* first form */}
 
             <form noValidate autoComplete="off">
+
+            {/* firstname */}
             <TextField 
             id="outlined-basic" 
             label="First Name" 
@@ -123,18 +125,45 @@ export default function Contact() {
             color="secondary"
             fullWidth
             required
-            style={{  marginTop:20,
-                      marginBottom:20,
-                      display:'block' 
-                  }}
+            style={{  marginTop:20,marginBottom:20,display:'block'  }}
             />
 
+             {/* lastname */}
+             <TextField 
+            id="outlined-basic" 
+            label="Last Name" 
+            variant="outlined"
+            color="secondary"
+            fullWidth
+            required
+            style={{  marginTop:20,marginBottom:20,display:'block'  }}
+            />
+
+            {/* email */}
             <TextField 
+            id="outlined-basic" 
+            label="Email" 
+            variant="outlined"
+            color="secondary"
+            fullWidth
+            required
+            style={{  marginTop:20,marginBottom:20,display:'block'  }}
+            />
 
+             {/* subject */}
+             <TextField 
+            id="outlined-basic" 
+            label="Email" 
+            variant="outlined"
+            color="secondary"
+            fullWidth
+            required
+            style={{  marginTop:20,marginBottom:20,display:'block'  }}
+            />
 
-             
-          
-             
+            {/* message */}
+
+            <TextField 
             id="outlined-multiline-static" 
             label="Message" 
             variant="outlined"
@@ -143,11 +172,10 @@ export default function Contact() {
               rows={8}
             fullWidth
             required
-            style={{  marginTop:20,
-                      marginBottom:20,
-                      display:'block' 
-                  }}
+            style={{  marginTop:20, marginBottom:20,display:'block' }}
             />
+
+            
 
          
             
