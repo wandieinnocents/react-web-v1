@@ -80,7 +80,7 @@ export default function Layout() {
                         </li>
 
                         <li>
-                          <Link to="/contact"> PRODUCTS </Link>
+                          <Link to="/products"> PRODUCTS </Link>
                         </li>
 
                       </ul>
