@@ -95,6 +95,117 @@ export default function Contact() {
 
     {/* GRID ROW */}
 
+
+
+  {/* Grid Row */}
+  <Grid
+        container
+        direction="row"
+        spacing={2}
+      // style={{top:530,zIndex:1, position:'absolute'}}
+
+      >
+
+        {/* Column1 */}
+        <Grid item xs={12} sm={12} md={12} style={{ backgroundColor: '', textAlign: 'center', padding: 6, marginBottom: 20 }}>
+
+          {/* icon */}
+
+          <h1>TALK TO US</h1>
+          <Typography >
+           We are responsive to messages
+          </Typography>
+
+        </Grid>
+        {/* Column2 */}
+
+      </Grid>
+      {/* End of Grid Row */}
+
+
+
+
+
+
+
+      {/* GRID ROW */}
+      <Grid
+        container
+        direction="row"
+        spacing={2}
+      // style={{ marginTop:250 }}
+
+      // style={{marginTop:250, position:'relative'}}
+      >
+        {/* left space */}
+        <Grid item xs={12} sm={1.5} md={1.5} >
+        </Grid>
+        {/* Column1 */}
+        <Grid item xs={12} sm={3} md={3} >
+          <Item style={{ backgroundColor: '', padding: 6 }}>
+            {/* icon */}
+            <img
+              src={require('../assets/mission.png')}
+              alt="Trees"
+              width="20%"
+              height="20%"
+              style={{ marginTop: 30 }}
+            />
+            <h4>CONTACT</h4>
+            <Typography >
+              +256706382817
+              
+            </Typography>
+          </Item>
+        </Grid>
+        {/* Column2 */}
+        <Grid item xs={12} sm={3} md={3}>
+          <Item style={{ backgroundColor: '', padding: 6, marginBottom: 10 }}>
+            {/* icon */}
+            <img
+              src={require('../assets/vision.png')}
+              alt="Trees"
+              width="20%"
+              height="20%"
+              style={{ marginTop: 30 }}
+            />
+            <h4>EMAIL</h4>
+            <Typography >
+             wandieinnocent2@gmail.com
+            </Typography>
+          </Item>
+        </Grid>
+        {/* Column3 */}
+        <Grid item xs={12} sm={3} md={3}>
+          <Item style={{ backgroundColor: '', padding: 6, marginBottom: 10 }}>
+            {/* icon */}
+            <img
+              src={require('../assets/values.png')}
+              alt="Trees"
+              width="20%"
+              height="20%"
+              style={{ marginTop: 30 }}
+            />
+            <h4>ADDRESS</h4>
+            <Typography >
+              Uganda,Kampala.
+            </Typography>
+          </Item>
+        </Grid>
+        {/* right space */}
+        <Grid item xs={12} sm={1.5} md={1.5} >
+        </Grid>
+      </Grid>
+      {/* END OF GRID ROW */}
+
+
+
+
+
+
+
+
+
       {/* Grid Row */}
       <Grid
         container
@@ -194,137 +305,7 @@ export default function Contact() {
     {/* END OF GRID ROW */}
 
 
-      {/* Grid Row */}
-      <Grid
-        container
-        direction="row"
-        spacing={2}
-      // style={{top:530,zIndex:1, position:'absolute'}}
-
-      >
-
-        {/* Column1 */}
-        <Grid item xs={12} sm={12} md={12} style={{ backgroundColor: '', textAlign: 'center', padding: 6, marginBottom: 20 }}>
-
-          {/* icon */}
-
-          <h1>WHAT WE DO ?</h1>
-          <Typography >
-            Truncation should be conditionally applicable on this long line of text
-            as this is a much longer line than what the container can support.
-            <br></br>
-            Truncation should be conditionals long line of text
-            as this is a much longer line than what the container can support.
-            <br></br>
-            Truncation should be conditionally applicable on this long line of text
-          </Typography>
-
-        </Grid>
-        {/* Column2 */}
-
-
-
-      </Grid>
-      {/* End of Grid Row */}
-
-
-
-
-
-
-
-      {/* GRID ROW */}
-      <Grid
-        container
-        direction="row"
-        spacing={2}
-      // style={{ marginTop:250 }}
-
-      // style={{marginTop:250, position:'relative'}}
-      >
-        {/* left space */}
-        <Grid item xs={12} sm={1.5} md={1.5} >
-        </Grid>
-        {/* Column1 */}
-        <Grid item xs={12} sm={3} md={3} >
-          <Item style={{ backgroundColor: '', padding: 6 }}>
-            {/* icon */}
-            <img
-              src={require('../assets/mission.png')}
-              alt="Trees"
-              width="20%"
-              height="20%"
-              style={{ marginTop: 30 }}
-            />
-            <h1>CONTACT</h1>
-            <Typography >
-              Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can support.
-              Truncation should be conditionally applicable on this long line of text
-            </Typography>
-          </Item>
-        </Grid>
-        {/* Column2 */}
-        <Grid item xs={12} sm={3} md={3}>
-          <Item style={{ backgroundColor: '', padding: 6, marginBottom: 10 }}>
-            {/* icon */}
-            <img
-              src={require('../assets/vision.png')}
-              alt="Trees"
-              width="20%"
-              height="20%"
-              style={{ marginTop: 30 }}
-            />
-            <h1>EMAIL</h1>
-            <Typography >
-              Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can support.
-              Truncation should be conditionally applicable on this long line of text
-            </Typography>
-          </Item>
-        </Grid>
-        {/* Column3 */}
-        <Grid item xs={12} sm={3} md={3}>
-          <Item style={{ backgroundColor: '', padding: 6, marginBottom: 10 }}>
-            {/* icon */}
-            <img
-              src={require('../assets/values.png')}
-              alt="Trees"
-              width="20%"
-              height="20%"
-              style={{ marginTop: 30 }}
-            />
-            <h1>ADDRESS</h1>
-            <Typography >
-              Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can support.
-              Truncation should be conditionally applicable on this long line of text
-            </Typography>
-          </Item>
-        </Grid>
-        {/* right space */}
-        <Grid item xs={12} sm={1.5} md={1.5} >
-        </Grid>
-      </Grid>
-      {/* END OF GRID ROW */}
-
-
-      {/* GRID ROW */}
-      {/* parallax section */}
-      <Grid
-        container
-        direction="row"
-        spacing={2}
-      >
-        {/* banner section */}
-        <Grid item xs={12} sm={12} md={12} style={{ backgroundColor: '', marginBottom: 10 }} >
-        <h1 style={{ color: 'black' }}>GOOGLE MAPS SECTION</h1>
-        </Grid>
-      </Grid>
-
-      {/* End parallax section */}
-      {/* END OF GRID ROW */}
-
+    
 
 
 
