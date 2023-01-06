@@ -263,9 +263,22 @@ export default function ProductDetails() {
         spacing={2}  
         >
           
-          <Button style={{ marginTop:10 , width:'100%' }} variant="contained"  color="secondary" endIcon={<SendIcon />}>
-          Read more
-          </Button>
+          <Stack 
+        direction="row"
+        alignContent="center"  
+        alignItems="center"
+        justifyContent="center"
+        spacing={2}  
+        >
+          
+          <p> - </p>
+
+          <p> 0 </p>
+
+          <p> + </p>
+
+
+        </Stack>
 
           <Button style={{ marginTop:10 , width:'100%' }} variant="contained"  color="secondary" endIcon={<AddShoppingCartIcon />}>
           Add to cart
