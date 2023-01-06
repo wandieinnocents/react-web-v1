@@ -83,6 +83,10 @@ export default function Layout() {
                           <Link to="/products"> PRODUCTS </Link>
                         </li>
 
+                        <li>
+                          <Link to="/product_details"> PRODUCTS details </Link>
+                        </li>
+
                       </ul>
                     </nav>
 
