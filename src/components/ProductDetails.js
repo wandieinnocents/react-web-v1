@@ -198,13 +198,7 @@ export default function ProductDetails() {
             alt="Paella dish"
           />
           <CardContent>
-          <h2 style={{ textAlign:'center',alignItems:'center' }}>UGX : 250,000</h2>
-          <h2 style={{ textAlign:'center',alignItems:'center',marginTop:-15,color:'red' }}> <s> UGX 5000,000 </s></h2>
-            <Typography variant="body2" color="text.secondary" >
-              This impressive paella is a perfect party dish and a fun meal to cook
-              together with your guests. Add 1 cup of frozen peas along with the mussels,
-              if you like.
-            </Typography>
+         
           </CardContent>
           <CardActions disableSpacing>
           <IconButton aria-label="share">
@@ -260,6 +254,25 @@ export default function ProductDetails() {
 
         <h1>UGX 250,000 </h1>
         <h2 style={{ alignItems:'center',marginTop:-15,color:'red' }}> <s> UGX 5000,000 </s></h2>
+
+        <Stack 
+        direction="row"
+        alignContent="center"  
+        alignItems="center"
+        justifyContent="center"
+        spacing={2}  
+        >
+          
+          <Button style={{ marginTop:10 , width:'100%' }} variant="contained"  color="secondary" endIcon={<SendIcon />}>
+          Read more
+          </Button>
+
+          <Button style={{ marginTop:10 , width:'100%' }} variant="contained"  color="secondary" endIcon={<AddShoppingCartIcon />}>
+          Add to cart
+          </Button>
+
+        </Stack>
+
 
 
         </Grid>
