@@ -241,7 +241,27 @@ export default function ProductDetails() {
        
         {/* Column3 */}
         <Grid item xs={12} sm={6} md={6}>
-        <p>kddjkd,,</p>
+        <h3>SNEAKER COMPANY</h3>
+        <h1>Fall Limited Edition Sneakers</h1>
+        <p>
+              This impressive paella is a perfect party dish and a fun meal to cook
+              together with your guests. Add 1 cup of frozen peas along with the mussels,
+              if you like.
+              This impressive paella is a perfect party dish and a fun meal to cook
+              together with your guests. Add 1 cup of frozen peas along with the mussels,
+              if you like.
+              This impressive paella is a perfect party dish and a fun meal to cook
+              together with your guests. Add 1 cup of frozen peas along with the mussels,
+              if you like.
+              This impressive paella is a perfect party dish and a fun meal to cook
+              together with your guests. Add 1 cup of frozen peas along with the mussels,
+              if you like.
+        </p>
+
+        <h1>UGX 250,000 </h1>
+        <h2 style={{ alignItems:'center',marginTop:-15,color:'red' }}> <s> UGX 5000,000 </s></h2>
+
+
         </Grid>
         {/* right space */}
         <Grid item xs={12} sm={1} md={1} >
