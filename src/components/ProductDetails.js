@@ -201,32 +201,9 @@ export default function ProductDetails() {
          
           </CardContent>
           <CardActions disableSpacing>
-          <IconButton aria-label="share">
-              <AddShoppingCartIcon />
-            </IconButton>
-            <IconButton aria-label="add to favorites">
-              <FavoriteIcon />
-            </IconButton>
+          <p> add other slider product image here </p>
           
-            <ExpandMore
-              // expand={expanded}
-              onClick={handleExpandClick}
-              // aria-expanded={expanded}
-              aria-label="show more"
-            >
-            <Stack 
-            direction="row"
-            alignContent="center"  
-            alignItems="center"
-            justifyContent="center"
-            spacing={2}  
-            >
-              
-              <Button style={{ marginTop:10 , width:'100%' }} variant="contained"  color="secondary" endIcon={<ArrowForwardIcon />}>
-            VIEW DETAIS
-              </Button>
-            </Stack>
-            </ExpandMore>
+           
           </CardActions>
         
         </Card>
