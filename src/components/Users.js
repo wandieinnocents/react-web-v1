@@ -79,17 +79,24 @@ const parallaxText = {
 
 export default function Users() {
 
+
+    // second api
+    // fetch('https://dummyjson.com/users')
+    // .then(res => res.json())
+    // .then( console.log);
+
+
     // import data from api
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
     const [users, setUsers] = useState([]);
     useEffect(() => {
-        fetch("https://jsonplaceholder.typicode.com/users/")
+        fetch("https://dummyjson.com/users")
             .then(res => res.json())
             .then(
                 (data) => {
                     setIsLoaded(true);
-                    setUsers(data);
+                    setUsers(data.users);
                 },
                 (error) => {
                     setIsLoaded(true);
@@ -140,7 +147,7 @@ export default function Users() {
     <ul>
             {users.map(user => (
                 <li>
-                    <Link to={`/usersdetails/${user.id}`}>{user.name}</Link>
+                    <Link to={`/usersdetails/${user.id}`}>{user.firstName}</Link>
                 </li>
             ))}
         </ul>

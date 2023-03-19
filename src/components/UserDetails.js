@@ -60,6 +60,9 @@ const parallaxText = {
 
 
 export default function UserDetails()  {
+
+
+
     // get details of single id 
     const { id  } = useParams();
     // methods to pick data
@@ -68,11 +71,11 @@ export default function UserDetails()  {
     const [user, setUser] = useState([]);
     
     useEffect(() => {
-        fetch("https://jsonplaceholder.typicode.com/users/" + id)
+        fetch("https://dummyjson.com/users/" + id)
             .then(res => res.json())
             .then(
                 (data) => {
-                    console.log(data);
+                    console.log(data.users);
                     setUser(data);
                     setIsLoaded(true);
                 },
@@ -124,22 +127,16 @@ export default function UserDetails()  {
 
 <center>
 <div>
-                <h1>{user.name}</h1>
-                <p>username : {user.username }</p>
-                <p>address city : {user.address.city }</p>
-                <p>address street : {user.address.street }</p>
-                <p>company : {user.company.street }</p>
+                <h1>{user.firstName}</h1>
+                <p>username : {user.lastName }</p>
+                <p>age : {user.age }</p>
+                <p>gender : {user.gender }</p>
+                <p>domain : {user.domain }</p>
+                <p>address : {user.company.address.address }</p>
+                <p>department : {user.company.department }</p>
+               
 
 
-                <div>
-                    Email: {user.email}
-                </div>
-                <div>
-                    Phone: {user.phone}
-                </div>
-                <div>
-                    Website: {user.website}
-                </div>
             </div>
 </center>
    
