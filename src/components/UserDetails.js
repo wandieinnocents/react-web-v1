@@ -11,9 +11,6 @@ import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import { useParams } from "react-router-dom";
 
-
-
-
 // card
 import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
@@ -59,8 +56,13 @@ const parallaxText = {
   transform: "translate(-50%,-50%)"
 };
 // end of parallax
+
+
+
 export default function UserDetails()  {
+    // get details of single id 
     const { id  } = useParams();
+    // methods to pick data
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
     const [user, setUser] = useState([]);
@@ -80,6 +82,13 @@ export default function UserDetails()  {
                 }
             )
     }, [])
+
+    // error handling
+    if (error) {
+        return <div><center>Error: {error.message}</center></div>;
+    } else if (!isLoaded) {
+        return <div><center>Loading...</center></div>;
+    } else {
 
 
 
@@ -337,6 +346,8 @@ export default function UserDetails()  {
     // End of // General Box Layout
   );
 }
+}
+
 
 
 
