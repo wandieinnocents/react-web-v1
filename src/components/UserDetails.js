@@ -75,7 +75,7 @@ export default function UserDetails()  {
             .then(res => res.json())
             .then(
                 (data) => {
-                    console.log(data.users);
+                    console.log(data);
                     setUser(data);
                     setIsLoaded(true);
                 },
@@ -93,9 +93,6 @@ export default function UserDetails()  {
         return <div><center>Loading...</center></div>;
     } else {
 
-
-
-  
 
   
   return (
@@ -125,21 +122,7 @@ export default function UserDetails()  {
         </Grid>
       </Grid>
 
-<center>
-<div>
-                <h1>{user.firstName}</h1>
-                <p>username : {user.lastName }</p>
-                <p>age : {user.age }</p>
-                <p>gender : {user.gender }</p>
-                <p>domain : {user.domain }</p>
-                <p>address : {user.company.address.address }</p>
-                <p>department : {user.company.department }</p>
-               
 
-
-            </div>
-</center>
-   
 
       {/* Grid Row */}
       <Grid
@@ -155,12 +138,7 @@ export default function UserDetails()  {
 
           {/* icon */}
 
-          <h1>PRODUCT DETAILS</h1>
-          <Typography >
-            Truncation should be conditionally applicable on this long line of text
-            as this is a much longer line than what the container can support.
-            
-          </Typography>
+        
 
         </Grid>
         {/* Column2 */}
@@ -203,7 +181,7 @@ export default function UserDetails()  {
               </IconButton>
             }
             title={user.lastName}
-            subheader="September 14, 2023"
+            subheader={user.email}
           />
           <CardMedia
             component="img"
@@ -214,34 +192,20 @@ export default function UserDetails()  {
           <CardContent>
          
           </CardContent>
-          <CardActions disableSpacing>
-          <p> add other slider product image here </p>
           
-           
-          </CardActions>
-        
         </Card>
         </Grid>
         {/* Column2 */}
        
         {/* Column3 */}
         <Grid item xs={12} sm={6} md={6}>
-        <h3>SNEAKER COMPANY</h3>
-        <h1>Fall Limited Edition Sneakers</h1>
-        <p>
-              This impressive paella is a perfect party dish and a fun meal to cook
-              together with your guests. Add 1 cup of frozen peas along with the mussels,
-              if you like.
-              This impressive paella is a perfect party dish and a fun meal to cook
-              together with your guests. Add 1 cup of frozen peas along with the mussels,
-              if you like.
-              This impressive paella is a perfect party dish and a fun meal to cook
-              together with your guests. Add 1 cup of frozen peas along with the mussels,
-              if you like.
-              This impressive paella is a perfect party dish and a fun meal to cook
-              together with your guests. Add 1 cup of frozen peas along with the mussels,
-              if you like.
-        </p> 
+        <h3>{user.firstName} {user.lastName}</h3>
+        <h1>{user.email}</h1>
+        <p> Age : {user.age} </p> 
+        <p> Gender : {user.gender} </p> 
+        <p> Age : {user.age} </p> 
+        <p>{user.company.address.address }</p>
+        <p>{user.company.department }</p>
 
 
 
