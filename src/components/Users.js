@@ -25,6 +25,8 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Divider from '@mui/material/Divider';
+import { Link } from 'react-router-dom';
+
 
 // Icons
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
@@ -137,9 +139,9 @@ export default function Users() {
     <p>SHOW USERS</p>
     <ul>
             {users.map(user => (
-            <li key={user.id}>
-                {user.name} 
-            </li>
+                <li>
+                    <Link to={`/usersdetails/${user.id}`}>{user.name}</Link>
+                </li>
             ))}
         </ul>
     </center>
