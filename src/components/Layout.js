@@ -57,23 +57,23 @@ export default function Layout() {
                           <Link to="/about"> ABOUT  |  </Link>
                         </li>
 
-                       
+{/*                        
                         <li>
                           <Link to="/services"> SERVICES | </Link>
-                        </li>
+                        </li> */}
 
-                        <li>
+                        {/* <li>
                           <Link to="/team"> TEAM  |</Link>
-                        </li>
-
+                        </li> */}
+{/* 
                         <li>
                           <Link to="/gallery"> GALLERY  |  </Link>
-                        </li>
+                        </li> */}
 
-
+{/* 
                         <li  >
                           <Link to="/blogs"> BLOGS |  </Link>
-                        </li>
+                        </li> */}
                       
                         <li>
                           <Link to="/contact"> CONTACT |  </Link>
@@ -82,10 +82,10 @@ export default function Layout() {
                         <li>
                           <Link to="/products"> PRODUCTS </Link>
                         </li>
-
+{/* 
                         <li>
                           <Link to="/product_details"> PRODUCTS details </Link>
-                        </li>
+                        </li> */}
 
                       </ul>
                     </nav>
