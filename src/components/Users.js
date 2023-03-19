@@ -91,38 +91,7 @@ export default function Users() {
 
    
 
-      {/* Grid Row */}
-      <Grid
-        container
-        direction="row"
-        spacing={2}
-      // style={{top:530,zIndex:1, position:'absolute'}}
-
-      >
-
-        {/* Column1 */}
-        <Grid item xs={12} sm={12} md={12} style={{ backgroundColor: '', textAlign: 'center', padding: 6, marginBottom: 20 }}>
-
-          {/* icon */}
-
-          <h1>WHAT WE DO ?</h1>
-          <Typography >
-            Truncation should be conditionally applicable on this long line of text
-            as this is a much longer line than what the container can support.
-            <br></br>
-            Truncation should be conditionals long line of text
-            as this is a much longer line than what the container can support.
-            <br></br>
-            Truncation should be conditionally applicable on this long line of text
-          </Typography>
-
-        </Grid>
-        {/* Column2 */}
-
-
-
-      </Grid>
-      {/* End of Grid Row */}
+    
 
 
 
