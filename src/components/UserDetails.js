@@ -125,6 +125,11 @@ export default function UserDetails()  {
 <center>
 <div>
                 <h1>{user.name}</h1>
+                <p>username : {user.username }</p>
+                <p>address city : {user.address.city }</p>
+                <p>address street : {user.address.street }</p>
+
+
                 <div>
                     Email: {user.email}
                 </div>
