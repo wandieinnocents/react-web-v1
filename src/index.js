@@ -15,6 +15,7 @@ import Services from './components/Services';
 import Team from './components/Team';
 import Gallery from './components/Gallery';
 import Products from './components/Products';
+import Users from './components/Users';
 import ProductDetails from './components/ProductDetails';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -37,6 +38,7 @@ root.render(
           <Route path="team" element={<Team />} />
           <Route path="gallery" element={<Gallery />} />
           <Route path="products" element={<Products />} />
+          <Route path="users" element={<Users />} />
           <Route path="product_details" element={<ProductDetails />} />
 
 
