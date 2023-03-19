@@ -1,4 +1,6 @@
 import * as React from 'react';
+import  { useState, useEffect}  from 'react';
+
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
@@ -7,6 +9,8 @@ import Typography from '@mui/material/Typography';
 import { Parallax } from "react-parallax";
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
+import { useParams } from "react-router-dom";
+
 
 
 
@@ -55,7 +59,29 @@ const parallaxText = {
   transform: "translate(-50%,-50%)"
 };
 // end of parallax
-export default function UserDetails() {
+export default function UserDetails()  {
+    const { id  } = useParams();
+    const [error, setError] = useState(null);
+    const [isLoaded, setIsLoaded] = useState(false);
+    const [user, setUser] = useState([]);
+    
+    useEffect(() => {
+        fetch("https://jsonplaceholder.typicode.com/users/" + id)
+            .then(res => res.json())
+            .then(
+                (data) => {
+                    console.log(data);
+                    setUser(data);
+                    setIsLoaded(true);
+                },
+                (error) => {
+                    setIsLoaded(true);
+                    setError(error);
+                }
+            )
+    }, [])
+
+
 
   
 
@@ -87,7 +113,20 @@ export default function UserDetails() {
         </Grid>
       </Grid>
 
-
+<center>
+<div>
+                <h1>{user.name}</h1>
+                <div>
+                    Email: {user.email}
+                </div>
+                <div>
+                    Phone: {user.phone}
+                </div>
+                <div>
+                    Website: {user.website}
+                </div>
+            </div>
+</center>
    
 
       {/* Grid Row */}
@@ -298,6 +337,8 @@ export default function UserDetails() {
     // End of // General Box Layout
   );
 }
+
+
 
 
 
