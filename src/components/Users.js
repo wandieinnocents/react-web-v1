@@ -171,11 +171,10 @@ export default function Users() {
               height="20%"
               style={{ marginTop: 30 }}
             />
-            <h1>{user.firstName}</h1>
+            <h1>{user.firstName} {user.lastName} </h1>
             <Typography >
-              Truncation should be conditionally applicable on this long line of text
-              as this is a much longer line than what the container can support.
-              Truncation should be conditionally applicable on this long line of text
+              {user.email} 
+              
             </Typography>
            
             <Link to={`/usersdetails/${user.id}`}>
