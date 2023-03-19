@@ -142,22 +142,6 @@ export default function Users() {
 
    
 
-    <center>
-    <p>SHOW USERS</p>
-    <ul>
-            {users.map(user => (
-                <li>
-                    <Link to={`/usersdetails/${user.id}`}>{user.firstName}</Link>
-                </li>
-            ))}
-        </ul>
-    </center>
-
-
-
-
-
-
 
       {/* GRID ROW */}
       <Grid
@@ -193,8 +177,11 @@ export default function Users() {
               as this is a much longer line than what the container can support.
               Truncation should be conditionally applicable on this long line of text
             </Typography>
+           
+            <Link to={`/usersdetails/${user.id}`}>
+            <Button href="#" style={{  marginTop: 20,marginBottom:20 }} variant="contained" color="primary" size="medium">USER DETAILS</Button>
+            </Link>
 
-            <Button style={{  marginTop: 20,marginBottom:20 }} variant="contained" color="primary" size="medium">READ MORE</Button>
           </Item>
         </Grid>
 
@@ -235,43 +222,6 @@ export default function Users() {
 
 
 {/* FOOTER */}
-
-{/* parallax section */}
-<Grid
-        container
-        direction="row"
-        spacing={2}
-      >
-        {/* banner section */}
-        <Grid item xs={12} sm={12} md={12} 
-        style={{ 
-                backgroundColor: 'black', 
-                marginBottom: 10 ,
-                marginTop:40,
-                // borderTopLeftRadius:200 ,
-                // borderTopRightRadius:200
-
-
-                 }} >
-
-          <Parallax  blur={{ min: -1, max: 8 }}>
-          {/* <Parallax bgImage={image3} blur={{ min: -1, max: 8 }}> */}
-            <div style={{ height: 500 }}>
-              <div style={parallaxText} >
-                <h1 style={{ color: 'white' }}>LOOKING FOR BETTER  TO PLASTICS ?</h1>
-                <p style={{ color: 'white', marginTop: -10 }}>We have a team ofruWe have a team of resilient designers to take u thruWe have
-                  a team of resilient designers to take u thru</p>
-                <p style={{ color: 'white', marginTop: -10 }}>We have a team ofruWe have a team of resilient designers to take u thruWe have </p>
-                {/* button */}
-                <Button variant="contained" color="primary" size="large">JOIN TODAY</Button>
-                <Button variant="contained" color="success" size="large" style={{ marginLeft: 20 }}>TALK TO US</Button>
-              </div>
-            </div>
-          </Parallax>
-        </Grid>
-      </Grid>
-
-      {/* End parallax section */}
 
 
 {/* END OF FOOTER */}
