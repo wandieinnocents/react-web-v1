@@ -4,20 +4,11 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-import { render } from "react-dom";
-import { Parallax, Background } from "react-parallax";
+import { Parallax } from "react-parallax";
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
-import BackgroundSlideshow from 'react-background-slideshow'
 
 
-import image5 from '../assets/nature.jpeg'
-import x from '../assets/x.jpeg'
-import y from '../assets/y.jpeg'
-import z from '../assets/z.jpeg'
-import { ImportantDevices } from '@mui/icons-material';
-import Fab from '@mui/material/Fab';
-import AddIcon from '@mui/icons-material/Add';
 
 // card
 import Card from '@mui/material/Card';
@@ -25,21 +16,13 @@ import CardHeader from '@mui/material/CardHeader';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
-import Collapse from '@mui/material/Collapse';
 import Avatar from '@mui/material/Avatar';
 import IconButton from '@mui/material/IconButton';
-import Divider from '@mui/material/Divider';
 import { red } from '@mui/material/colors';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import ShareIcon from '@mui/icons-material/Share';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 
 // Icons
-import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import SendIcon from '@mui/icons-material/Send';
 
 
 
@@ -55,28 +38,12 @@ const Item = styled(Paper)(({ theme }) => ({
 }));
 
 
-// expand more
-const ExpandMore = styled((props) => {
-  const { expand, ...other } = props;
-  return <IconButton {...other} />;
-})(({ theme, expand }) => ({
-  transform: !expand ? 'rotate(0deg)' : 'rotate(180deg)',
-  marginLeft: 'auto',
-  transition: theme.transitions.create('transform', {
-    duration: theme.transitions.duration.shortest,
-  }),
-}));
+
 
 
 // parallax image
-const image1 =
-  "https://images.unsplash.com/photo-1498092651296-641e88c3b057?auto=format&fit=crop&w=1778&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D";
-const image2 =
-  "https://img00.deviantart.net/2bd0/i/2009/276/c/9/magic_forrest_wallpaper_by_goergen.jpg";
-const image3 =
-  "https://cdn.searchenginejournal.com/wp-content/uploads/2022/08/google-shopping-ads-6304dccb7a49e-sej.png";
-const image4 =
-  "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/empire-state-building-black-and-white-square-format-john-farnan.jpg";
+
+const image3 = "https://cdn.searchenginejournal.com/wp-content/uploads/2022/08/google-shopping-ads-6304dccb7a49e-sej.png";
 const parallaxText = {
   // background: "white",
   padding: 10,
