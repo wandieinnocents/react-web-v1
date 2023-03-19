@@ -1,4 +1,6 @@
 import * as React from 'react';
+import { useState, useEffect }  from 'react';
+
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
@@ -60,7 +62,47 @@ const parallaxText = {
   transform: "translate(-50%,-50%)"
 };
 // end of parallax
+
+
+// Fetch data from api 
+
+// fetch('https://dummyjson.com/users')
+// .then(res => res.json())
+// .then(console.log);
+
+            
+
+
+// End of fetch data from api
+
 export default function Users() {
+
+    // import data from api
+    const [error, setError] = useState(null);
+    const [isLoaded, setIsLoaded] = useState(false);
+    const [users, setUsers] = useState([]);
+    useEffect(() => {
+        fetch("https://jsonplaceholder.typicode.com/users/")
+            .then(res => res.json())
+            .then(
+                (data) => {
+                    setIsLoaded(true);
+                    setUsers(data);
+                },
+                (error) => {
+                    setIsLoaded(true);
+                    setError(error);
+                }
+            )
+      }, [])
+
+    //   for error handling
+    if (error) {
+        return <div><center>Error: {error.message}</center></div>;
+    } else if (!isLoaded) {
+        return <div> <center>Loading...</center></div>;
+    } else {
+
   return (
 
     // General Box Layout
@@ -91,7 +133,16 @@ export default function Users() {
 
    
 
-    
+    <center>
+    <p>SHOW USERS</p>
+    <ul>
+            {users.map(user => (
+            <li key={user.id}>
+                {user.name} 
+            </li>
+            ))}
+        </ul>
+    </center>
 
 
 
@@ -404,7 +455,9 @@ export default function Users() {
     // End of // General Box Layout
   );
 }
+}
 
 
 
-// create the Home stylesheet here
+
+
