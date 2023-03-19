@@ -202,13 +202,13 @@ export default function UserDetails()  {
                 <MoreVertIcon />
               </IconButton>
             }
-            title="HP Laptop Ryzen"
+            title={user.lastName}
             subheader="September 14, 2023"
           />
           <CardMedia
             component="img"
             height="194"
-            image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwk1SGyLpxwAfc4cBCNhB4adl_Qk3VaolaAQ&usqp=CAU"
+            image={user.image }
             alt="Paella dish"
           />
           <CardContent>
