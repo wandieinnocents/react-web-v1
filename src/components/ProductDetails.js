@@ -141,7 +141,7 @@ export default function ProductDetails() {
 
           {/* icon */}
 
-          <h1>WHAT WE DO ?</h1>
+          <h1>PRODUCT DETAILS</h1>
           <Typography >
             Truncation should be conditionally applicable on this long line of text
             as this is a much longer line than what the container can support.

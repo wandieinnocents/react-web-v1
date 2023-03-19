@@ -6,3 +6,7 @@ REACT WEB APP
 ## Background image slider
 - npm install --save react-background-slideshow
 
+## API TEST DATA WEBSITES
+- https://dummyjson.com/docs/users
+- 
+
