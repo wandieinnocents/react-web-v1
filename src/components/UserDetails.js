@@ -128,6 +128,7 @@ export default function UserDetails()  {
                 <p>username : {user.username }</p>
                 <p>address city : {user.address.city }</p>
                 <p>address street : {user.address.street }</p>
+                <p>company : {user.company.street }</p>
 
 
                 <div>
@@ -243,41 +244,7 @@ export default function UserDetails()  {
               This impressive paella is a perfect party dish and a fun meal to cook
               together with your guests. Add 1 cup of frozen peas along with the mussels,
               if you like.
-        </p>
-
-        <h1>UGX 250,000 </h1>
-        <h2 style={{ alignItems:'center',marginTop:-15,color:'red' }}> <s> UGX 5000,000 </s></h2>
-
-        <Stack 
-        direction="row"
-        alignContent="center"  
-        alignItems="center"
-        justifyContent="center"
-        spacing={2}  
-        >
-          
-          <Stack 
-        direction="row"
-        alignContent="center"  
-        alignItems="center"
-        justifyContent="center"
-        spacing={2}  
-        >
-          
-          <p> - </p>
-
-          <p> 0 </p>
-
-          <p> + </p>
-
-
-        </Stack>
-
-          <Button style={{ marginTop:10 , width:'100%' }} variant="contained"  color="secondary" endIcon={<AddShoppingCartIcon />}>
-          Add to cart
-          </Button>
-
-        </Stack>
+        </p> 
 
 
 
@@ -285,7 +252,7 @@ export default function UserDetails()  {
         {/* right space */}
         <Grid item xs={12} sm={1} md={1} >
         </Grid>
-      </Grid>
+      </Grid><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
       {/* END OF GRID ROW */}
 
       
@@ -304,43 +271,6 @@ export default function UserDetails()  {
 
 
 {/* FOOTER */}
-
-{/* parallax section */}
-<Grid
-        container
-        direction="row"
-        spacing={2}
-      >
-        {/* banner section */}
-        <Grid item xs={12} sm={12} md={12} 
-        style={{ 
-                backgroundColor: 'black', 
-                marginBottom: 10 ,
-                marginTop:40,
-                // borderTopLeftRadius:200 ,
-                // borderTopRightRadius:200
-
-
-                 }} >
-
-          <Parallax  blur={{ min: -1, max: 8 }}>
-          {/* <Parallax bgImage={image3} blur={{ min: -1, max: 8 }}> */}
-            <div style={{ height: 500 }}>
-              <div style={parallaxText} >
-                <h1 style={{ color: 'white' }}>LOOKING FOR BETTER  TO PLASTICS ?</h1>
-                <p style={{ color: 'white', marginTop: -10 }}>We have a team ofruWe have a team of resilient designers to take u thruWe have
-                  a team of resilient designers to take u thru</p>
-                <p style={{ color: 'white', marginTop: -10 }}>We have a team ofruWe have a team of resilient designers to take u thruWe have </p>
-                {/* button */}
-                <Button variant="contained" color="primary" size="large">JOIN TODAY</Button>
-                <Button variant="contained" color="success" size="large" style={{ marginLeft: 20 }}>TALK TO US</Button>
-              </div>
-            </div>
-          </Parallax>
-        </Grid>
-      </Grid>
-
-      {/* End parallax section */}
 
 
 {/* END OF FOOTER */}
