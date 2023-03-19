@@ -74,14 +74,16 @@ export default function Layout() {
                         <li  >
                           <Link to="/blogs"> BLOGS |  </Link>
                         </li> */}
-                      
-                        <li>
-                          <Link to="/contact"> CONTACT |  </Link>
-                        </li>
 
                         <li>
-                          <Link to="/products"> PRODUCTS </Link>
+                          <Link to="/products"> PRODUCTS |  </Link>
                         </li>
+                      
+                        <li>
+                          <Link to="/contact">  CONTACT   </Link>
+                        </li>
+
+                        
 {/* 
                         <li>
                           <Link to="/product_details"> PRODUCTS details </Link>
