@@ -131,7 +131,7 @@ export default function Users() {
                 <h1 style={{ color: 'black', fontSize: 30 }}>USERS</h1>
                 <p style={{ color: 'black', fontSize: 20, marginTop: -40 }}>
                  
-                  <br></br>Check Our Services</p>
+                  <br></br> Our Services</p>
                
               </div>
             </div>
